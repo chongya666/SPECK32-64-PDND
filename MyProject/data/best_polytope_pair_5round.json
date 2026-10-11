@@ -1,0 +1,7070 @@
+{
+  "nr": 5,
+  "best": {
+    "polytope_label_0": [
+      [
+        8,
+        0
+      ],
+      [
+        32,
+        0
+      ],
+      [
+        80,
+        8192
+      ]
+    ],
+    "polytope_label_1": [
+      [
+        16,
+        8192
+      ],
+      [
+        64,
+        0
+      ],
+      [
+        128,
+        0
+      ]
+    ],
+    "coarse_score": 0.06827066091338098,
+    "refine_score": 0.06517655256952459,
+    "refine_projected_js": 0.08927597115429647,
+    "refine_marginal_gap": 0.04114181276351686,
+    "refine_correlation_gap": 0.005393770057708025,
+    "refine_stability": 0.9921219714389125,
+    "refine_input_overlap": 0.0,
+    "proxy_auc": 0.9632514417171478,
+    "proxy_accuracy": 0.8953857421875,
+    "proxy_advantage": 0.9265028834342957,
+    "final_score": 0.40970708491543306
+  },
+  "all_successful_starts": [
+    {
+      "ok": true,
+      "anchor_index": 10,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            128,
+            1
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            8,
+            0
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            128,
+            0
+          ]
+        ],
+        "coarse_score": 0.06827066091338098,
+        "refine_score": 0.06517655256952459,
+        "refine_projected_js": 0.08927597115429647,
+        "refine_marginal_gap": 0.04114181276351686,
+        "refine_correlation_gap": 0.005393770057708025,
+        "refine_stability": 0.9921219714389125,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.9632514417171478,
+        "proxy_accuracy": 0.8953857421875,
+        "proxy_advantage": 0.9265028834342957,
+        "final_score": 0.40970708491543306
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              8,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              0
+            ]
+          ],
+          "coarse_score": 0.06827066091338098,
+          "refine_score": 0.06517655256952459,
+          "refine_projected_js": 0.08927597115429647,
+          "refine_marginal_gap": 0.04114181276351686,
+          "refine_correlation_gap": 0.005393770057708025,
+          "refine_stability": 0.9921219714389125,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9632514417171478,
+          "proxy_accuracy": 0.8953857421875,
+          "proxy_advantage": 0.9265028834342957,
+          "final_score": 0.40970708491543306
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              0
+            ]
+          ],
+          "coarse_score": 0.06904120777827763,
+          "refine_score": 0.06447350641074062,
+          "refine_projected_js": 0.08807050353449165,
+          "refine_marginal_gap": 0.04106358119419643,
+          "refine_correlation_gap": 0.005880038098742564,
+          "refine_stability": 0.9916488546111951,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9622161984443665,
+          "proxy_accuracy": 0.8916015625,
+          "proxy_advantage": 0.9244323968887329,
+          "final_score": 0.4084570626019376
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              0
+            ]
+          ],
+          "coarse_score": 0.06671941978614139,
+          "refine_score": 0.06193001754779411,
+          "refine_projected_js": 0.08503430747070877,
+          "refine_marginal_gap": 0.03785257490854414,
+          "refine_correlation_gap": 0.005355199333280325,
+          "refine_stability": 0.9926470003056115,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9567704796791077,
+          "proxy_accuracy": 0.884765625,
+          "proxy_advantage": 0.9135409593582153,
+          "final_score": 0.4025743942719626
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4100
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              0
+            ]
+          ],
+          "coarse_score": 0.06629247285386773,
+          "refine_score": 0.06192513142150488,
+          "refine_projected_js": 0.08499802853444749,
+          "refine_marginal_gap": 0.03768509153335814,
+          "refine_correlation_gap": 0.005635473411530256,
+          "refine_stability": 0.991661461275907,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03715507885290293
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              129
+            ]
+          ],
+          "coarse_score": 0.06057643023607532,
+          "refine_score": 0.06151850863580181,
+          "refine_projected_js": 0.08434208831977756,
+          "refine_marginal_gap": 0.038395715138268845,
+          "refine_correlation_gap": 0.005061785380045573,
+          "refine_stability": 0.9938660396487426,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03691110518148108
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              16385
+            ]
+          ],
+          "coarse_score": 0.06286111572703326,
+          "refine_score": 0.061480058149258755,
+          "refine_projected_js": 0.08408943290406835,
+          "refine_marginal_gap": 0.03846571180555555,
+          "refine_correlation_gap": 0.005663977625469367,
+          "refine_stability": 0.9934434286340609,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03688803488955525
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16512,
+              1
+            ]
+          ],
+          "coarse_score": 0.06147084674260083,
+          "refine_score": 0.061064229008270035,
+          "refine_projected_js": 0.08350771239312378,
+          "refine_marginal_gap": 0.03842926025390625,
+          "refine_correlation_gap": 0.005526118911802769,
+          "refine_stability": 0.9930173842862005,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03663853740496202
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              129
+            ]
+          ],
+          "coarse_score": 0.061313097925590344,
+          "refine_score": 0.060772188566786636,
+          "refine_projected_js": 0.0830870197915454,
+          "refine_marginal_gap": 0.03831748356894841,
+          "refine_correlation_gap": 0.005522621950755517,
+          "refine_stability": 0.9928916318214931,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03646331314007198
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              24576
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              1
+            ]
+          ],
+          "coarse_score": 0.06065272262141865,
+          "refine_score": 0.05955195448310121,
+          "refine_projected_js": 0.08165621405252554,
+          "refine_marginal_gap": 0.03691040523468502,
+          "refine_correlation_gap": 0.005146132471660773,
+          "refine_stability": 0.9924238425955679,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03573117268986072
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              16,
+              24576
+            ],
+            [
+              32,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              4224,
+              1
+            ]
+          ],
+          "coarse_score": 0.06323699037591216,
+          "refine_score": 0.05794518407127409,
+          "refine_projected_js": 0.07885826843105248,
+          "refine_marginal_gap": 0.037768046061197914,
+          "refine_correlation_gap": 0.005251672584563494,
+          "refine_stability": 0.9975651050950615,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.034767110442764454
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              17
+            ],
+            [
+              16400,
+              8192
+            ]
+          ],
+          "coarse_score": 0.06074170695137976,
+          "refine_score": 0.0502464794059618,
+          "refine_projected_js": 0.06784174372909531,
+          "refine_marginal_gap": 0.03543575226314485,
+          "refine_correlation_gap": 0.004460334777832031,
+          "refine_stability": 0.9942267848807792,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03014788764357708
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              128,
+              1
+            ],
+            [
+              16400,
+              8192
+            ]
+          ],
+          "coarse_score": 0.06121187684752656,
+          "refine_score": 0.04958194556674781,
+          "refine_projected_js": 0.06598771048897129,
+          "refine_marginal_gap": 0.037291632758246526,
+          "refine_correlation_gap": 0.0058636136042575044,
+          "refine_stability": 0.992293976122915,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.029749167340048684
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 3,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            4,
+            2048
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            64,
+            0
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            8,
+            4096
+          ],
+          [
+            16,
+            8192
+          ],
+          [
+            96,
+            16384
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            4,
+            2048
+          ],
+          [
+            32,
+            16384
+          ],
+          [
+            64,
+            0
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            8,
+            4096
+          ],
+          [
+            16,
+            8192
+          ],
+          [
+            96,
+            16384
+          ]
+        ],
+        "coarse_score": 0.0839637937590274,
+        "refine_score": 0.05986466566314837,
+        "refine_projected_js": 0.08034861878804045,
+        "refine_marginal_gap": 0.04274991958860367,
+        "refine_correlation_gap": 0.006268395421405633,
+        "refine_stability": 0.9976538426918087,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.9669595956802368,
+        "proxy_accuracy": 0.8978271484375,
+        "proxy_advantage": 0.9339191913604736,
+        "final_score": 0.4094864759420785
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              96,
+              16384
+            ]
+          ],
+          "coarse_score": 0.0839637937590274,
+          "refine_score": 0.05986466566314837,
+          "refine_projected_js": 0.08034861878804045,
+          "refine_marginal_gap": 0.04274991958860367,
+          "refine_correlation_gap": 0.006268395421405633,
+          "refine_stability": 0.9976538426918087,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9669595956802368,
+          "proxy_accuracy": 0.8978271484375,
+          "proxy_advantage": 0.9339191913604736,
+          "final_score": 0.4094864759420785
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              96,
+              16384
+            ],
+            [
+              16392,
+              4096
+            ]
+          ],
+          "coarse_score": 0.07522715030957713,
+          "refine_score": 0.06164464964993388,
+          "refine_projected_js": 0.08335833137971942,
+          "refine_marginal_gap": 0.040176149398561505,
+          "refine_correlation_gap": 0.007523430821796258,
+          "refine_stability": 0.9943793714488732,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9575667381286621,
+          "proxy_accuracy": 0.8883056640625,
+          "proxy_advantage": 0.9151334762573242,
+          "final_score": 0.40304018029289007
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              24,
+              12416
+            ],
+            [
+              96,
+              16384
+            ]
+          ],
+          "coarse_score": 0.07602836490510337,
+          "refine_score": 0.059625630276921235,
+          "refine_projected_js": 0.08079855920212163,
+          "refine_marginal_gap": 0.03844827318948413,
+          "refine_correlation_gap": 0.007041931307564179,
+          "refine_stability": 0.9942155287548359,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9516894221305847,
+          "proxy_accuracy": 0.8768310546875,
+          "proxy_advantage": 0.9033788442611694,
+          "final_score": 0.39712691587062054
+        },
+        {
+          "polytope_label_0": [
+            [
+              0,
+              2048
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              96,
+              16384
+            ]
+          ],
+          "coarse_score": 0.08109937506888427,
+          "refine_score": 0.05724344532361844,
+          "refine_projected_js": 0.07705294109591798,
+          "refine_marginal_gap": 0.039888775537884426,
+          "refine_correlation_gap": 0.006090905983000994,
+          "refine_stability": 0.9962936857793866,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03434606719417106
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2052
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              96,
+              16384
+            ]
+          ],
+          "coarse_score": 0.08026877359617056,
+          "refine_score": 0.056620936765134945,
+          "refine_projected_js": 0.07646140478957357,
+          "refine_marginal_gap": 0.03876858665829613,
+          "refine_correlation_gap": 0.005661540509512027,
+          "refine_stability": 0.997654579247749,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03397256205908097
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              96,
+              16384
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              32,
+              0
+            ],
+            [
+              38,
+              2048
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.08041079891310002,
+          "refine_score": 0.05628860972161729,
+          "refine_projected_js": 0.07674240492000384,
+          "refine_marginal_gap": 0.036361452132936505,
+          "refine_correlation_gap": 0.004953490414967139,
+          "refine_stability": 0.9965496965300487,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.033773165832970374
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2068
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              96,
+              16384
+            ]
+          ],
+          "coarse_score": 0.08009192554742532,
+          "refine_score": 0.05623209420288206,
+          "refine_projected_js": 0.07596287066099865,
+          "refine_marginal_gap": 0.03837210034567212,
+          "refine_correlation_gap": 0.005634519892434279,
+          "refine_stability": 0.9976456253633493,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03373925652172924
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              96,
+              16384
+            ],
+            [
+              16400,
+              8192
+            ]
+          ],
+          "coarse_score": 0.0753685491373377,
+          "refine_score": 0.05615653231050562,
+          "refine_projected_js": 0.07580137587442949,
+          "refine_marginal_gap": 0.03785632905505953,
+          "refine_correlation_gap": 0.0062898000081380205,
+          "refine_stability": 0.9954835613490104,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.033693919386303374
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              16,
+              8320
+            ],
+            [
+              96,
+              16384
+            ]
+          ],
+          "coarse_score": 0.07607147274420821,
+          "refine_score": 0.05571744551010267,
+          "refine_projected_js": 0.0755305137399442,
+          "refine_marginal_gap": 0.037027268182663685,
+          "refine_correlation_gap": 0.005431917030364275,
+          "refine_stability": 0.9983975997339903,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.033430467306061605
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              128
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              96,
+              16384
+            ]
+          ],
+          "coarse_score": 0.07573036445574485,
+          "refine_score": 0.055368184873401574,
+          "refine_projected_js": 0.07452960821245624,
+          "refine_marginal_gap": 0.03932868109809028,
+          "refine_correlation_gap": 0.005255063374837239,
+          "refine_stability": 0.9976193236040386,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03322091092404094
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              16,
+              8320
+            ],
+            [
+              96,
+              16384
+            ]
+          ],
+          "coarse_score": 0.07596406532817708,
+          "refine_score": 0.05524050955631455,
+          "refine_projected_js": 0.0748033217048158,
+          "refine_marginal_gap": 0.036587306431361606,
+          "refine_correlation_gap": 0.0058733620680868626,
+          "refine_stability": 0.9959828173648033,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03314430573378873
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              96,
+              16384
+            ],
+            [
+              144,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              12,
+              2048
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.075419489424368,
+          "refine_score": 0.05459157959870669,
+          "refine_projected_js": 0.0737144539531461,
+          "refine_marginal_gap": 0.03689962720114087,
+          "refine_correlation_gap": 0.005905469258626302,
+          "refine_stability": 0.99644397814551,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03275494775922401
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 4,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            1,
+            512
+          ],
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            65,
+            512
+          ]
+        ],
+        "coarse_score": 0.07421346868167104,
+        "refine_score": 0.06452330044213168,
+        "refine_projected_js": 0.08907705621170718,
+        "refine_marginal_gap": 0.03798542325458829,
+        "refine_correlation_gap": 0.004874123415599267,
+        "refine_stability": 0.9961729765153262,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.9586123824119568,
+        "proxy_accuracy": 0.8837890625,
+        "proxy_advantage": 0.9172247648239136,
+        "final_score": 0.40560388619484444
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              65,
+              512
+            ]
+          ],
+          "coarse_score": 0.07421346868167104,
+          "refine_score": 0.06452330044213168,
+          "refine_projected_js": 0.08907705621170718,
+          "refine_marginal_gap": 0.03798542325458829,
+          "refine_correlation_gap": 0.004874123415599267,
+          "refine_stability": 0.9961729765153262,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9586123824119568,
+          "proxy_accuracy": 0.8837890625,
+          "proxy_advantage": 0.9172247648239136,
+          "final_score": 0.40560388619484444
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1029,
+              512
+            ]
+          ],
+          "coarse_score": 0.07372780552227107,
+          "refine_score": 0.06353473175537251,
+          "refine_projected_js": 0.08744449342891301,
+          "refine_marginal_gap": 0.038431803385416664,
+          "refine_correlation_gap": 0.00495868269354105,
+          "refine_stability": 0.9952279572553464,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.958242654800415,
+          "proxy_accuracy": 0.8868408203125,
+          "proxy_advantage": 0.9164853096008301,
+          "final_score": 0.4047149628935556
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1025,
+              512
+            ]
+          ],
+          "coarse_score": 0.07380290045448114,
+          "refine_score": 0.06387822506082327,
+          "refine_projected_js": 0.08794241740918347,
+          "refine_marginal_gap": 0.03866686139787946,
+          "refine_correlation_gap": 0.0049620734838147955,
+          "refine_stability": 0.9939965488770641,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9556325078010559,
+          "proxy_accuracy": 0.8861083984375,
+          "proxy_advantage": 0.9112650156021118,
+          "final_score": 0.4028329412773387
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              129,
+              512
+            ]
+          ],
+          "coarse_score": 0.07417815630491778,
+          "refine_score": 0.06353460191067219,
+          "refine_projected_js": 0.08751544926824262,
+          "refine_marginal_gap": 0.038210308741009426,
+          "refine_correlation_gap": 0.00492095947265625,
+          "refine_stability": 0.9947973657611724,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03812076114640331
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1027,
+              512
+            ]
+          ],
+          "coarse_score": 0.07371463016713219,
+          "refine_score": 0.06345937321967475,
+          "refine_projected_js": 0.08745285937349441,
+          "refine_marginal_gap": 0.03826153467571925,
+          "refine_correlation_gap": 0.004767735954374075,
+          "refine_stability": 0.993880526394228,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03807562393180485
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              65,
+              8704
+            ]
+          ],
+          "coarse_score": 0.07412600477084473,
+          "refine_score": 0.0633894456922415,
+          "refine_projected_js": 0.08735080620575864,
+          "refine_marginal_gap": 0.03783126104445684,
+          "refine_correlation_gap": 0.004933781145761411,
+          "refine_stability": 0.9960573655659388,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.0380336674153449
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              513,
+              4608
+            ]
+          ],
+          "coarse_score": 0.07372144823103247,
+          "refine_score": 0.06338268179487926,
+          "refine_projected_js": 0.08735511863905798,
+          "refine_marginal_gap": 0.03799014621310764,
+          "refine_correlation_gap": 0.004932827316224575,
+          "refine_stability": 0.9934427230458027,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.038029609076927554
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              129,
+              4736
+            ]
+          ],
+          "coarse_score": 0.07370251297803654,
+          "refine_score": 0.06331402006245906,
+          "refine_projected_js": 0.0872495820755604,
+          "refine_marginal_gap": 0.03786202082558284,
+          "refine_correlation_gap": 0.004959212460865577,
+          "refine_stability": 0.994529014603744,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03798841203747544
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              8193,
+              514
+            ]
+          ],
+          "coarse_score": 0.07375978782855686,
+          "refine_score": 0.06328525951981999,
+          "refine_projected_js": 0.08725126505534349,
+          "refine_marginal_gap": 0.037827749100942464,
+          "refine_correlation_gap": 0.004910998822500308,
+          "refine_stability": 0.9933386999972242,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03797115571189199
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              129,
+              640
+            ]
+          ],
+          "coarse_score": 0.07366685168409003,
+          "refine_score": 0.06328457493819771,
+          "refine_projected_js": 0.08723170730899832,
+          "refine_marginal_gap": 0.03793758816189236,
+          "refine_correlation_gap": 0.0047651926676432295,
+          "refine_stability": 0.995286743781104,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03797074496291863
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16385,
+              512
+            ]
+          ],
+          "coarse_score": 0.07374124347006016,
+          "refine_score": 0.06318957806214694,
+          "refine_projected_js": 0.08711423043890426,
+          "refine_marginal_gap": 0.03784421890500992,
+          "refine_correlation_gap": 0.0048056708959241705,
+          "refine_stability": 0.9942747052859611,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03791374683728816
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              8193,
+              512
+            ]
+          ],
+          "coarse_score": 0.07372150199205327,
+          "refine_score": 0.0631115009646316,
+          "refine_projected_js": 0.08696696249096382,
+          "refine_marginal_gap": 0.03788236587766617,
+          "refine_correlation_gap": 0.0048489041316012544,
+          "refine_stability": 0.9945267775762098,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03786690057877896
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 8,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            512,
+            4
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            16384
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            512,
+            4
+          ]
+        ],
+        "coarse_score": 0.06930723853757853,
+        "refine_score": 0.06061417577394843,
+        "refine_projected_js": 0.08152855916785012,
+        "refine_marginal_gap": 0.04216475713820685,
+        "refine_correlation_gap": 0.006730927464862664,
+        "refine_stability": 0.9958553371474437,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.959628701210022,
+        "proxy_accuracy": 0.8900146484375,
+        "proxy_advantage": 0.919257402420044,
+        "final_score": 0.4040714664323866
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              512,
+              4
+            ]
+          ],
+          "coarse_score": 0.06930723853757853,
+          "refine_score": 0.06061417577394843,
+          "refine_projected_js": 0.08152855916785012,
+          "refine_marginal_gap": 0.04216475713820685,
+          "refine_correlation_gap": 0.006730927464862664,
+          "refine_stability": 0.9958553371474437,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.959628701210022,
+          "proxy_accuracy": 0.8900146484375,
+          "proxy_advantage": 0.919257402420044,
+          "final_score": 0.4040714664323866
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              640,
+              4
+            ]
+          ],
+          "coarse_score": 0.06690474214009168,
+          "refine_score": 0.05731004028102033,
+          "refine_projected_js": 0.07728562918938232,
+          "refine_marginal_gap": 0.03881569514198909,
+          "refine_correlation_gap": 0.006538602989166975,
+          "refine_stability": 0.9951457466435343,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9477657079696655,
+          "proxy_accuracy": 0.873046875,
+          "proxy_advantage": 0.895531415939331,
+          "final_score": 0.39259859054434465
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              2
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1536,
+              1028
+            ]
+          ],
+          "coarse_score": 0.0657152976224659,
+          "refine_score": 0.05364337764890147,
+          "refine_projected_js": 0.07248434448875382,
+          "refine_marginal_gap": 0.03550986638144841,
+          "refine_correlation_gap": 0.006376054448386033,
+          "refine_stability": 0.9931923063136632,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9419048428535461,
+          "proxy_accuracy": 0.8675537109375,
+          "proxy_advantage": 0.8838096857070923,
+          "final_score": 0.3857099008721778
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              128
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              512,
+              4
+            ]
+          ],
+          "coarse_score": 0.06224031834918126,
+          "refine_score": 0.053589956463067634,
+          "refine_projected_js": 0.0711724516658806,
+          "refine_marginal_gap": 0.04040442572699653,
+          "refine_correlation_gap": 0.006461037478099267,
+          "refine_stability": 0.9976677710735018,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03215397387784058
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              5122
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1538,
+              1028
+            ]
+          ],
+          "coarse_score": 0.0657123989259014,
+          "refine_score": 0.05356953198756015,
+          "refine_projected_js": 0.07234258296819883,
+          "refine_marginal_gap": 0.03581831190321181,
+          "refine_correlation_gap": 0.006344795227050781,
+          "refine_stability": 0.9911624093814881,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03214171919253609
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              5122
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1536,
+              1028
+            ]
+          ],
+          "coarse_score": 0.0656451281188968,
+          "refine_score": 0.0534507730785982,
+          "refine_projected_js": 0.07223061102063337,
+          "refine_marginal_gap": 0.03533693343874008,
+          "refine_correlation_gap": 0.006349457583079736,
+          "refine_stability": 0.9935019441270867,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03207046384715892
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4098
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1538,
+              1028
+            ]
+          ],
+          "coarse_score": 0.06540098365728753,
+          "refine_score": 0.05341183291873354,
+          "refine_projected_js": 0.07210026330889312,
+          "refine_marginal_gap": 0.035890609499007936,
+          "refine_correlation_gap": 0.006362597147623698,
+          "refine_stability": 0.9897751807951489,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03204709975124012
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4098
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1536,
+              1028
+            ]
+          ],
+          "coarse_score": 0.06522219458645515,
+          "refine_score": 0.05330558745513267,
+          "refine_projected_js": 0.0719628796358956,
+          "refine_marginal_gap": 0.035409231034536214,
+          "refine_correlation_gap": 0.006464322408040364,
+          "refine_stability": 0.9930186140710098,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.0319833524730796
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              1026
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1536,
+              1028
+            ]
+          ],
+          "coarse_score": 0.06552077452834418,
+          "refine_score": 0.053253944313067514,
+          "refine_projected_js": 0.07193903036584112,
+          "refine_marginal_gap": 0.03522527785528274,
+          "refine_correlation_gap": 0.006407949607819319,
+          "refine_stability": 0.9932671342846335,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03195236658784051
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              1026
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1536,
+              3076
+            ]
+          ],
+          "coarse_score": 0.06526322036194707,
+          "refine_score": 0.05323438726149837,
+          "refine_projected_js": 0.07190067530307821,
+          "refine_marginal_gap": 0.03525192018539187,
+          "refine_correlation_gap": 0.006456057230631511,
+          "refine_stability": 0.992492544064188,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03194063235689902
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              96,
+              16384
+            ],
+            [
+              512,
+              4
+            ]
+          ],
+          "coarse_score": 0.061841862903101744,
+          "refine_score": 0.05259046001875646,
+          "refine_projected_js": 0.07021745187685834,
+          "refine_marginal_gap": 0.03780667743985615,
+          "refine_correlation_gap": 0.006836043360332648,
+          "refine_stability": 0.9915437790880991,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03155427601125387
+        },
+        {
+          "polytope_label_0": [
+            [
+              16,
+              8256
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              512,
+              4
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              24576
+            ],
+            [
+              136,
+              4128
+            ]
+          ],
+          "coarse_score": 0.06239446375669217,
+          "refine_score": 0.04619778322076859,
+          "refine_projected_js": 0.06256257506865658,
+          "refine_marginal_gap": 0.030893961588541668,
+          "refine_correlation_gap": 0.0045717027969658375,
+          "refine_stability": 0.9982337242857346,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.027718669932461155
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 7,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            5120,
+            8
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            112,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            5120,
+            8
+          ]
+        ],
+        "coarse_score": 0.06197097933827488,
+        "refine_score": 0.05636195896807076,
+        "refine_projected_js": 0.07499262408610176,
+        "refine_marginal_gap": 0.03962126232328869,
+        "refine_correlation_gap": 0.008564524973432222,
+        "refine_stability": 0.9965124003280308,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.9620922803878784,
+        "proxy_accuracy": 0.893310546875,
+        "proxy_advantage": 0.9241845607757568,
+        "final_score": 0.4034909996911452
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              112,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8
+            ]
+          ],
+          "coarse_score": 0.06197097933827488,
+          "refine_score": 0.05636195896807076,
+          "refine_projected_js": 0.07499262408610176,
+          "refine_marginal_gap": 0.03962126232328869,
+          "refine_correlation_gap": 0.008564524973432222,
+          "refine_stability": 0.9965124003280308,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9620922803878784,
+          "proxy_accuracy": 0.893310546875,
+          "proxy_advantage": 0.9241845607757568,
+          "final_score": 0.4034909996911452
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1024,
+              8
+            ]
+          ],
+          "coarse_score": 0.06182025957654436,
+          "refine_score": 0.056913057555960336,
+          "refine_projected_js": 0.07492724913730554,
+          "refine_marginal_gap": 0.04205794561476935,
+          "refine_correlation_gap": 0.009754075047870478,
+          "refine_stability": 0.9956847506890384,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9596558809280396,
+          "proxy_accuracy": 0.8865966796875,
+          "proxy_advantage": 0.9193117618560791,
+          "final_score": 0.40187253927600786
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8
+            ]
+          ],
+          "coarse_score": 0.06127873711179092,
+          "refine_score": 0.05695286830942973,
+          "refine_projected_js": 0.0754714047956034,
+          "refine_marginal_gap": 0.04089319138299851,
+          "refine_correlation_gap": 0.009005122818052769,
+          "refine_stability": 0.9966180802991249,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9580330848693848,
+          "proxy_accuracy": 0.8863525390625,
+          "proxy_advantage": 0.9160661697387695,
+          "final_score": 0.40059818888116566
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8
+            ]
+          ],
+          "coarse_score": 0.06393780435391906,
+          "refine_score": 0.056301293221131525,
+          "refine_projected_js": 0.07440023168279929,
+          "refine_marginal_gap": 0.041118440173921134,
+          "refine_correlation_gap": 0.009098052978515625,
+          "refine_stability": 0.99589742471729,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03378077593267891
+        },
+        {
+          "polytope_label_0": [
+            [
+              0,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8
+            ]
+          ],
+          "coarse_score": 0.06095409467590989,
+          "refine_score": 0.05405358871844741,
+          "refine_projected_js": 0.07157504888117261,
+          "refine_marginal_gap": 0.03854224795386905,
+          "refine_correlation_gap": 0.009016249018410841,
+          "refine_stability": 0.9949379317540834,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03243215323106845
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8200
+            ]
+          ],
+          "coarse_score": 0.06230887615495105,
+          "refine_score": 0.05396160558240848,
+          "refine_projected_js": 0.07130779051780167,
+          "refine_marginal_gap": 0.03840612986731151,
+          "refine_correlation_gap": 0.009526358606914679,
+          "refine_stability": 0.9949413879577749,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.032376963349445086
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              20480
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              1024,
+              8
+            ]
+          ],
+          "coarse_score": 0.06455839141573823,
+          "refine_score": 0.053600625917773655,
+          "refine_projected_js": 0.0703793347835745,
+          "refine_marginal_gap": 0.039711240738157245,
+          "refine_correlation_gap": 0.009861734074850878,
+          "refine_stability": 0.9930159498453466,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03216037555066419
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4224
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8
+            ]
+          ],
+          "coarse_score": 0.06212309101966349,
+          "refine_score": 0.05342519856281538,
+          "refine_projected_js": 0.07071868525184621,
+          "refine_marginal_gap": 0.03806571354941716,
+          "refine_correlation_gap": 0.009076860422889391,
+          "refine_stability": 0.9937209771986677,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03205511913768923
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              12544
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8
+            ]
+          ],
+          "coarse_score": 0.06085784349413612,
+          "refine_score": 0.053423914132848256,
+          "refine_projected_js": 0.07081203097195189,
+          "refine_marginal_gap": 0.03764755006820437,
+          "refine_correlation_gap": 0.009105682373046875,
+          "refine_stability": 0.9932541812913473,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03205434847970895
+        },
+        {
+          "polytope_label_0": [
+            [
+              12,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8
+            ]
+          ],
+          "coarse_score": 0.06063756167388876,
+          "refine_score": 0.05342198285020692,
+          "refine_projected_js": 0.070741951086626,
+          "refine_marginal_gap": 0.03776005336216518,
+          "refine_correlation_gap": 0.009137471516927084,
+          "refine_stability": 0.9951576573605754,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03205318971012415
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4097
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8
+            ]
+          ],
+          "coarse_score": 0.06150901590774119,
+          "refine_score": 0.05332665757784005,
+          "refine_projected_js": 0.0706856534519703,
+          "refine_marginal_gap": 0.03773437984406002,
+          "refine_correlation_gap": 0.008906364440917969,
+          "refine_stability": 0.9943387985566523,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03199599454670403
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              24576
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              5120,
+              8
+            ]
+          ],
+          "coarse_score": 0.06088463695928206,
+          "refine_score": 0.04900446078494358,
+          "refine_projected_js": 0.06509048556985497,
+          "refine_marginal_gap": 0.03573947482638889,
+          "refine_correlation_gap": 0.0068177116724352045,
+          "refine_stability": 0.9970613433987957,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.029402676470966147
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 6,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            2,
+            1024
+          ],
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            514,
+            1024
+          ]
+        ],
+        "coarse_score": 0.0743562300922443,
+        "refine_score": 0.05769081722626167,
+        "refine_projected_js": 0.07849547829217259,
+        "refine_marginal_gap": 0.038686358739459324,
+        "refine_correlation_gap": 0.004534721219291289,
+        "refine_stability": 0.9964368333259672,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.9591627717018127,
+        "proxy_accuracy": 0.885986328125,
+        "proxy_advantage": 0.9183255434036255,
+        "final_score": 0.4019447076972072
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              514,
+              1024
+            ]
+          ],
+          "coarse_score": 0.0743562300922443,
+          "refine_score": 0.05769081722626167,
+          "refine_projected_js": 0.07849547829217259,
+          "refine_marginal_gap": 0.038686358739459324,
+          "refine_correlation_gap": 0.004534721219291289,
+          "refine_stability": 0.9964368333259672,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9591627717018127,
+          "proxy_accuracy": 0.885986328125,
+          "proxy_advantage": 0.9183255434036255,
+          "final_score": 0.4019447076972072
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              4098,
+              1024
+            ]
+          ],
+          "coarse_score": 0.07471115964939135,
+          "refine_score": 0.05837719470582909,
+          "refine_projected_js": 0.07957982007316551,
+          "refine_marginal_gap": 0.038610064794146824,
+          "refine_correlation_gap": 0.004563649495442708,
+          "refine_stability": 0.9953853393980182,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9579907655715942,
+          "proxy_accuracy": 0.8870849609375,
+          "proxy_advantage": 0.9159815311431885,
+          "final_score": 0.40141892928077283
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              66,
+              1024
+            ]
+          ],
+          "coarse_score": 0.07503968471685624,
+          "refine_score": 0.05797684725937474,
+          "refine_projected_js": 0.0791026939973531,
+          "refine_marginal_gap": 0.038182939801897325,
+          "refine_correlation_gap": 0.004492759704589844,
+          "refine_stability": 0.9943234291183249,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9505617618560791,
+          "proxy_accuracy": 0.8739013671875,
+          "proxy_advantage": 0.9011235237121582,
+          "final_score": 0.39523551784048816
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              32774,
+              1024
+            ]
+          ],
+          "coarse_score": 0.0745179377461377,
+          "refine_score": 0.057675313391539695,
+          "refine_projected_js": 0.07866082418431307,
+          "refine_marginal_gap": 0.037934560624379964,
+          "refine_correlation_gap": 0.0045348273900647955,
+          "refine_stability": 0.9955504200809059,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.034605188034923816
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              4098,
+              17408
+            ]
+          ],
+          "coarse_score": 0.07437194530323984,
+          "refine_score": 0.05765208297783108,
+          "refine_projected_js": 0.07858889473463972,
+          "refine_marginal_gap": 0.03810301281156994,
+          "refine_correlation_gap": 0.004478984512388706,
+          "refine_stability": 0.996364665147686,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03459124978669865
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              258,
+              1024
+            ]
+          ],
+          "coarse_score": 0.0745445472334291,
+          "refine_score": 0.057574845510824396,
+          "refine_projected_js": 0.07845578274900145,
+          "refine_marginal_gap": 0.038236587766617064,
+          "refine_correlation_gap": 0.004396120707194011,
+          "refine_stability": 0.9968646959274982,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.034544907306494635
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              66,
+              1280
+            ]
+          ],
+          "coarse_score": 0.07399239445662607,
+          "refine_score": 0.05746499554120291,
+          "refine_projected_js": 0.07837960163118456,
+          "refine_marginal_gap": 0.037982153514074905,
+          "refine_correlation_gap": 0.004326820218314727,
+          "refine_stability": 0.9961369299534676,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03447899732472174
+        },
+        {
+          "polytope_label_0": [
+            [
+              10,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              12290,
+              1024
+            ]
+          ],
+          "coarse_score": 0.07322308414424882,
+          "refine_score": 0.05655901924653573,
+          "refine_projected_js": 0.07760650630994,
+          "refine_marginal_gap": 0.0350645761641245,
+          "refine_correlation_gap": 0.0045755174942314625,
+          "refine_stability": 0.9947014466672567,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.033935411547921436
+        },
+        {
+          "polytope_label_0": [
+            [
+              2,
+              1024
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16400,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "coarse_score": 0.07758551979853928,
+          "refine_score": 0.05568201208182465,
+          "refine_projected_js": 0.07608027842087893,
+          "refine_marginal_gap": 0.03572857569134425,
+          "refine_correlation_gap": 0.00459331925958395,
+          "refine_stability": 0.9956828472904204,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03340920724909479
+        },
+        {
+          "polytope_label_0": [
+            [
+              2,
+              1024
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16400,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              112,
+              8192
+            ]
+          ],
+          "coarse_score": 0.07559453088492264,
+          "refine_score": 0.05519440496167595,
+          "refine_projected_js": 0.07578844012034648,
+          "refine_marginal_gap": 0.03372531467013889,
+          "refine_correlation_gap": 0.004627227783203125,
+          "refine_stability": 0.9952645274377566,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03311664297700557
+        },
+        {
+          "polytope_label_0": [
+            [
+              2,
+              1040
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              144,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "coarse_score": 0.07348269097974815,
+          "refine_score": 0.05387933500469111,
+          "refine_projected_js": 0.07394789535127506,
+          "refine_marginal_gap": 0.03298925975012401,
+          "refine_correlation_gap": 0.0045873853377997875,
+          "refine_stability": 0.9951176476246962,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03232760100281466
+        },
+        {
+          "polytope_label_0": [
+            [
+              2,
+              1152
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              144,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "coarse_score": 0.07335897791739757,
+          "refine_score": 0.05383040890669749,
+          "refine_projected_js": 0.07391372416415094,
+          "refine_marginal_gap": 0.03291563003782242,
+          "refine_correlation_gap": 0.004522429623951514,
+          "refine_stability": 0.9948648548738392,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03229824534401849
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 9,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            32768,
+            256
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            16384
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            32768,
+            256
+          ]
+        ],
+        "coarse_score": 0.07688934967217423,
+        "refine_score": 0.06072780590714534,
+        "refine_projected_js": 0.08201247945759155,
+        "refine_marginal_gap": 0.0416626703171503,
+        "refine_correlation_gap": 0.005874951680501302,
+        "refine_stability": 0.999613335218685,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.9553143978118896,
+        "proxy_accuracy": 0.88330078125,
+        "proxy_advantage": 0.9106287956237793,
+        "final_score": 0.40068820179379894
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.07688934967217423,
+          "refine_score": 0.06072780590714534,
+          "refine_projected_js": 0.08201247945759155,
+          "refine_marginal_gap": 0.0416626703171503,
+          "refine_correlation_gap": 0.005874951680501302,
+          "refine_stability": 0.999613335218685,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9553143978118896,
+          "proxy_accuracy": 0.88330078125,
+          "proxy_advantage": 0.9106287956237793,
+          "final_score": 0.40068820179379894
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              128
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.06947599103303692,
+          "refine_score": 0.05507167253344386,
+          "refine_projected_js": 0.07367057001590788,
+          "refine_marginal_gap": 0.03999982561383929,
+          "refine_correlation_gap": 0.006011856875071923,
+          "refine_stability": 0.9984984815928337,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9491549730300903,
+          "proxy_accuracy": 0.875732421875,
+          "proxy_advantage": 0.8983099460601807,
+          "final_score": 0.3923669819441386
+        },
+        {
+          "polytope_label_0": [
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ],
+            [
+              16392,
+              4096
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              8208,
+              8192
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.07011342623908937,
+          "refine_score": 0.05203929566147148,
+          "refine_projected_js": 0.07132290344615767,
+          "refine_marginal_gap": 0.03162965320405506,
+          "refine_correlation_gap": 0.004937383811920881,
+          "refine_stability": 0.9949592537172064,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9372212886810303,
+          "proxy_accuracy": 0.857421875,
+          "proxy_advantage": 0.8744425773620605,
+          "final_score": 0.3810006083417071
+        },
+        {
+          "polytope_label_0": [
+            [
+              32,
+              0
+            ],
+            [
+              112,
+              8192
+            ],
+            [
+              136,
+              4096
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              144,
+              8192
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.07279289367649706,
+          "refine_score": 0.051255803186454,
+          "refine_projected_js": 0.07066061419603507,
+          "refine_marginal_gap": 0.02940090118892609,
+          "refine_correlation_gap": 0.004880375228822231,
+          "refine_stability": 0.9941727024475222,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.0307534819118724
+        },
+        {
+          "polytope_label_0": [
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ],
+            [
+              1032,
+              4096
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              2064,
+              8192
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.06985518716000054,
+          "refine_score": 0.050184371702479635,
+          "refine_projected_js": 0.0685530378174971,
+          "refine_marginal_gap": 0.031032380603608634,
+          "refine_correlation_gap": 0.0050419702505071955,
+          "refine_stability": 0.9961816071325461,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03011062302148778
+        },
+        {
+          "polytope_label_0": [
+            [
+              32,
+              0
+            ],
+            [
+              72,
+              4096
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              4112,
+              8192
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.07186698322713939,
+          "refine_score": 0.049691812684340836,
+          "refine_projected_js": 0.06756226836948084,
+          "refine_marginal_gap": 0.03145974779885913,
+          "refine_correlation_gap": 0.0054918923415243626,
+          "refine_stability": 0.9958777324498,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.0298150876106045
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              80,
+              8192
+            ],
+            [
+              96,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              4112,
+              8194
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.07156556736253966,
+          "refine_score": 0.04905314014969815,
+          "refine_projected_js": 0.06528880171186849,
+          "refine_marginal_gap": 0.03712330167255704,
+          "refine_correlation_gap": 0.005559179466217756,
+          "refine_stability": 0.9933922352209683,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02943188408981889
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4128
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              144,
+              8192
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.07161940239838382,
+          "refine_score": 0.04885359307893808,
+          "refine_projected_js": 0.06523941514208906,
+          "refine_marginal_gap": 0.03533535911923363,
+          "refine_correlation_gap": 0.005965550895780325,
+          "refine_stability": 0.9953536085637497,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.029312155847362846
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              4112,
+              8192
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.06951837475163859,
+          "refine_score": 0.0475618677888371,
+          "refine_projected_js": 0.0630363815050441,
+          "refine_marginal_gap": 0.03550332690042163,
+          "refine_correlation_gap": 0.006613307477285464,
+          "refine_stability": 0.993706589287675,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02853712067330226
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              6144
+            ],
+            [
+              80,
+              8192
+            ],
+            [
+              96,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              4112,
+              8194
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.07105917096620087,
+          "refine_score": 0.04748641952788771,
+          "refine_projected_js": 0.06336544329205535,
+          "refine_marginal_gap": 0.035789974152095734,
+          "refine_correlation_gap": 0.004946390787760417,
+          "refine_stability": 0.9938066562909273,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028491851716732623
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              16384
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.07110444197472396,
+          "refine_score": 0.04688052357492448,
+          "refine_projected_js": 0.062194021038811276,
+          "refine_marginal_gap": 0.03483315119667659,
+          "refine_correlation_gap": 0.006349245707194011,
+          "refine_stability": 0.9956936151404694,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02812831414495469
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4224
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              16384
+            ],
+            [
+              32768,
+              256
+            ]
+          ],
+          "coarse_score": 0.07107103409272647,
+          "refine_score": 0.04402236815118571,
+          "refine_projected_js": 0.05871976254870767,
+          "refine_marginal_gap": 0.03193809872581845,
+          "refine_correlation_gap": 0.005589697044342756,
+          "refine_stability": 0.9938593441664101,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.026413420890711425
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 11,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            16384,
+            128
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            16384,
+            16512
+          ]
+        ],
+        "coarse_score": 0.066743506435536,
+        "refine_score": 0.050564609140488576,
+        "refine_projected_js": 0.06645002748299761,
+        "refine_marginal_gap": 0.03953419034443204,
+        "refine_correlation_gap": 0.007558716771503289,
+        "refine_stability": 0.9931093640367322,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.9622278213500977,
+        "proxy_accuracy": 0.8924560546875,
+        "proxy_advantage": 0.9244556427001953,
+        "final_score": 0.4001210225643713
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16384,
+              16512
+            ]
+          ],
+          "coarse_score": 0.066743506435536,
+          "refine_score": 0.050564609140488576,
+          "refine_projected_js": 0.06645002748299761,
+          "refine_marginal_gap": 0.03953419034443204,
+          "refine_correlation_gap": 0.007558716771503289,
+          "refine_stability": 0.9931093640367322,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9622278213500977,
+          "proxy_accuracy": 0.8924560546875,
+          "proxy_advantage": 0.9244556427001953,
+          "final_score": 0.4001210225643713
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16512,
+              128
+            ]
+          ],
+          "coarse_score": 0.06596773459642355,
+          "refine_score": 0.04965254259930265,
+          "refine_projected_js": 0.06490162290295885,
+          "refine_marginal_gap": 0.03982023208860367,
+          "refine_correlation_gap": 0.007809427101165056,
+          "refine_stability": 0.9931183448254592,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.960673451423645,
+          "proxy_accuracy": 0.888427734375,
+          "proxy_advantage": 0.92134690284729,
+          "final_score": 0.3983302866984976
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16384,
+              129
+            ]
+          ],
+          "coarse_score": 0.06416930516655875,
+          "refine_score": 0.04830150705509313,
+          "refine_projected_js": 0.06318425035418053,
+          "refine_marginal_gap": 0.03885989718967014,
+          "refine_correlation_gap": 0.0073322720515231294,
+          "refine_stability": 0.9934152384756437,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.959301233291626,
+          "proxy_accuracy": 0.8883056640625,
+          "proxy_advantage": 0.918602466583252,
+          "final_score": 0.3964218908663567
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              32768
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16384,
+              0
+            ]
+          ],
+          "coarse_score": 0.06359641000645623,
+          "refine_score": 0.04829952298941615,
+          "refine_projected_js": 0.06329251866024159,
+          "refine_marginal_gap": 0.03753565228174603,
+          "refine_correlation_gap": 0.008023368039478859,
+          "refine_stability": 0.9921823935962347,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02897971379364969
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16384,
+              384
+            ]
+          ],
+          "coarse_score": 0.06437330607010976,
+          "refine_score": 0.04815635881597489,
+          "refine_projected_js": 0.06278814970877215,
+          "refine_marginal_gap": 0.03911590576171875,
+          "refine_correlation_gap": 0.007618056610226631,
+          "refine_stability": 0.9951314861857558,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028893815289584932
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              49152,
+              384
+            ]
+          ],
+          "coarse_score": 0.06372778353425326,
+          "refine_score": 0.0477471765050438,
+          "refine_projected_js": 0.062173088579951304,
+          "refine_marginal_gap": 0.03891693599640377,
+          "refine_correlation_gap": 0.007696045873065789,
+          "refine_stability": 0.9955972692915818,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028648305903026278
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              8192
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16384,
+              129
+            ]
+          ],
+          "coarse_score": 0.06459269624480352,
+          "refine_score": 0.047314254586943875,
+          "refine_projected_js": 0.06171109289721477,
+          "refine_marginal_gap": 0.038657657683841766,
+          "refine_correlation_gap": 0.007358445165057977,
+          "refine_stability": 0.9927933928611805,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028388552752166323
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16384,
+              640
+            ]
+          ],
+          "coarse_score": 0.06360892243021989,
+          "refine_score": 0.047308483250978466,
+          "refine_projected_js": 0.06136202794282349,
+          "refine_marginal_gap": 0.03943391830202133,
+          "refine_correlation_gap": 0.007749027572572231,
+          "refine_stability": 0.9955936657492425,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028385089950587077
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16384,
+              160
+            ]
+          ],
+          "coarse_score": 0.06370600380973834,
+          "refine_score": 0.04728561219874678,
+          "refine_projected_js": 0.06181577655895801,
+          "refine_marginal_gap": 0.03835163419208829,
+          "refine_correlation_gap": 0.0071699353866279125,
+          "refine_stability": 0.9914101808114567,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028371367319248067
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              8192
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16384,
+              384
+            ]
+          ],
+          "coarse_score": 0.0646323635639617,
+          "refine_score": 0.04725725375254852,
+          "refine_projected_js": 0.06145001862136327,
+          "refine_marginal_gap": 0.03891366625589038,
+          "refine_correlation_gap": 0.007638083615650733,
+          "refine_stability": 0.9947233153451314,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028354352251529113
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              17408,
+              129
+            ]
+          ],
+          "coarse_score": 0.06335863612426522,
+          "refine_score": 0.04702996560615801,
+          "refine_projected_js": 0.06127797109096204,
+          "refine_marginal_gap": 0.038438100663442464,
+          "refine_correlation_gap": 0.007304615496347348,
+          "refine_stability": 0.9970935656665821,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028217979363694808
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16384,
+              897
+            ]
+          ],
+          "coarse_score": 0.063328310782148,
+          "refine_score": 0.04695350170745275,
+          "refine_projected_js": 0.06127316632035428,
+          "refine_marginal_gap": 0.03825208875868055,
+          "refine_correlation_gap": 0.007203313987702131,
+          "refine_stability": 0.9944121522914844,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02817210102447165
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 2,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            4,
+            2048
+          ],
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            8,
+            4096
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            4100,
+            2048
+          ]
+        ],
+        "coarse_score": 0.07421910940690492,
+        "refine_score": 0.0499935003674389,
+        "refine_projected_js": 0.0645222974326216,
+        "refine_marginal_gap": 0.03899444095672123,
+        "refine_correlation_gap": 0.011332935653626919,
+        "refine_stability": 0.9938321912101018,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.958311140537262,
+        "proxy_accuracy": 0.8905029296875,
+        "proxy_advantage": 0.9166222810745239,
+        "final_score": 0.3966450126502729
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              4100,
+              2048
+            ]
+          ],
+          "coarse_score": 0.07421910940690492,
+          "refine_score": 0.0499935003674389,
+          "refine_projected_js": 0.0645222974326216,
+          "refine_marginal_gap": 0.03899444095672123,
+          "refine_correlation_gap": 0.011332935653626919,
+          "refine_stability": 0.9938321912101018,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.958311140537262,
+          "proxy_accuracy": 0.8905029296875,
+          "proxy_advantage": 0.9166222810745239,
+          "final_score": 0.3966450126502729
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              2052,
+              2048
+            ]
+          ],
+          "coarse_score": 0.07772762604617879,
+          "refine_score": 0.048159237888712375,
+          "refine_projected_js": 0.06242868203486925,
+          "refine_marginal_gap": 0.038582816956535225,
+          "refine_correlation_gap": 0.009289741516113281,
+          "refine_stability": 0.9932838149445543,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9590639472007751,
+          "proxy_accuracy": 0.8890380859375,
+          "proxy_advantage": 0.9181278944015503,
+          "final_score": 0.39614670049384754
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              8196,
+              2048
+            ]
+          ],
+          "coarse_score": 0.07525664710237584,
+          "refine_score": 0.04935396145643963,
+          "refine_projected_js": 0.06372676721791419,
+          "refine_marginal_gap": 0.038587539915054564,
+          "refine_correlation_gap": 0.011092927927772204,
+          "refine_stability": 0.992397819825914,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9572564363479614,
+          "proxy_accuracy": 0.8841552734375,
+          "proxy_advantage": 0.9145128726959229,
+          "final_score": 0.3954175259522329
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              0
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              8200,
+              4096
+            ]
+          ],
+          "coarse_score": 0.0785928038344671,
+          "refine_score": 0.04770013236741969,
+          "refine_projected_js": 0.06134182476596373,
+          "refine_marginal_gap": 0.03845893012152778,
+          "refine_correlation_gap": 0.010507265416284403,
+          "refine_stability": 0.9955651305612515,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028620079420451812
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              516,
+              34816
+            ]
+          ],
+          "coarse_score": 0.07760051443144811,
+          "refine_score": 0.047626701982458976,
+          "refine_projected_js": 0.06177152726047227,
+          "refine_marginal_gap": 0.03783792162698413,
+          "refine_correlation_gap": 0.009283489858110746,
+          "refine_stability": 0.9940045824925711,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028576021189475383
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              2052,
+              6208
+            ]
+          ],
+          "coarse_score": 0.07728827580588811,
+          "refine_score": 0.047511536478889706,
+          "refine_projected_js": 0.06159771842561823,
+          "refine_marginal_gap": 0.03786371624658978,
+          "refine_correlation_gap": 0.009306483591596285,
+          "refine_stability": 0.992871421851948,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028506921887333822
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4160
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              2068,
+              2048
+            ]
+          ],
+          "coarse_score": 0.07443629204843188,
+          "refine_score": 0.04554913760685733,
+          "refine_projected_js": 0.059211429306490225,
+          "refine_marginal_gap": 0.03535316103980655,
+          "refine_correlation_gap": 0.008965174357096354,
+          "refine_stability": 0.9962376170821163,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.0273294825641144
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4160
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              2052,
+              2048
+            ]
+          ],
+          "coarse_score": 0.07438229378480461,
+          "refine_score": 0.045493268571101794,
+          "refine_projected_js": 0.059124925152978514,
+          "refine_marginal_gap": 0.03516351609002976,
+          "refine_correlation_gap": 0.00913355095932881,
+          "refine_stability": 0.9956986288672834,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.027295961142661074
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4160
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              2052,
+              2120
+            ]
+          ],
+          "coarse_score": 0.07423035689749208,
+          "refine_score": 0.04480952705241874,
+          "refine_projected_js": 0.058327545060375054,
+          "refine_marginal_gap": 0.034495520213293655,
+          "refine_correlation_gap": 0.008889410023887953,
+          "refine_stability": 0.9938050672073677,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02688571623145124
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4160
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              2052,
+              2112
+            ]
+          ],
+          "coarse_score": 0.07430679387706113,
+          "refine_score": 0.044735299862033236,
+          "refine_projected_js": 0.05817035312536389,
+          "refine_marginal_gap": 0.034486437600756446,
+          "refine_correlation_gap": 0.008955531443158785,
+          "refine_stability": 0.9955888583633804,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.026841179917219942
+        },
+        {
+          "polytope_label_0": [
+            [
+              0,
+              4352
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              8196,
+              2368
+            ]
+          ],
+          "coarse_score": 0.07419309349164582,
+          "refine_score": 0.04465237538184701,
+          "refine_projected_js": 0.05808436492659692,
+          "refine_marginal_gap": 0.034317864312065974,
+          "refine_correlation_gap": 0.008972697580854097,
+          "refine_stability": 0.9950017979868107,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02679142522910821
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              4112,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              8,
+              4096
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "coarse_score": 0.07445856920928351,
+          "refine_score": 0.042232664945716904,
+          "refine_projected_js": 0.05328813951931897,
+          "refine_marginal_gap": 0.03587159656343006,
+          "refine_correlation_gap": 0.011223898890117804,
+          "refine_stability": 0.9964336251642874,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02533959896743014
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 0,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            4,
+            2048
+          ],
+          [
+            8,
+            4096
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            64,
+            0
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            4,
+            2048
+          ],
+          [
+            8,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            64,
+            32768
+          ]
+        ],
+        "coarse_score": 0.07276855263469735,
+        "refine_score": 0.048702387265050946,
+        "refine_projected_js": 0.06405857228581795,
+        "refine_marginal_gap": 0.039361257401723714,
+        "refine_correlation_gap": 0.006021817525227864,
+        "refine_stability": 0.9954625743986791,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.958046555519104,
+        "proxy_accuracy": 0.8861083984375,
+        "proxy_advantage": 0.916093111038208,
+        "final_score": 0.3956586767743138
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              32768
+            ]
+          ],
+          "coarse_score": 0.07276855263469735,
+          "refine_score": 0.048702387265050946,
+          "refine_projected_js": 0.06405857228581795,
+          "refine_marginal_gap": 0.039361257401723714,
+          "refine_correlation_gap": 0.006021817525227864,
+          "refine_stability": 0.9954625743986791,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.958046555519104,
+          "proxy_accuracy": 0.8861083984375,
+          "proxy_advantage": 0.916093111038208,
+          "final_score": 0.3956586767743138
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              80,
+              8192
+            ],
+            [
+              132,
+              2048
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.07729719825557849,
+          "refine_score": 0.05195636181158673,
+          "refine_projected_js": 0.06813794576632978,
+          "refine_marginal_gap": 0.04132879348028273,
+          "refine_correlation_gap": 0.007660971799244483,
+          "refine_stability": 0.9937701989123575,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9517462849617004,
+          "proxy_accuracy": 0.88818359375,
+          "proxy_advantage": 0.9034925699234009,
+          "final_score": 0.3925708450563124
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              80,
+              24576
+            ],
+            [
+              516,
+              2064
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.0755770142712857,
+          "refine_score": 0.05183426441039748,
+          "refine_projected_js": 0.06902931697311275,
+          "refine_marginal_gap": 0.03786856030660962,
+          "refine_correlation_gap": 0.0066799588191012544,
+          "refine_stability": 0.995078818027734,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9450272023677826,
+          "proxy_accuracy": 0.8739013671875,
+          "proxy_advantage": 0.8900544047355652,
+          "final_score": 0.3871223205404646
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              208,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.0739012605323942,
+          "refine_score": 0.04663251375304267,
+          "refine_projected_js": 0.0606077674997729,
+          "refine_marginal_gap": 0.04054817320808532,
+          "refine_correlation_gap": 0.006202591738353173,
+          "refine_stability": 0.9908729153449907,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.027979508251825602
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              8,
+              4096
+            ],
+            [
+              208,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.07292354598462415,
+          "refine_score": 0.04540690780336525,
+          "refine_projected_js": 0.05917412391256694,
+          "refine_marginal_gap": 0.03782447936042907,
+          "refine_correlation_gap": 0.0065646700871487456,
+          "refine_stability": 0.995282853382522,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02724414468201915
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              8,
+              4608
+            ],
+            [
+              208,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.07264774814190328,
+          "refine_score": 0.0430295770611714,
+          "refine_projected_js": 0.05594210046843223,
+          "refine_marginal_gap": 0.03640892392113095,
+          "refine_correlation_gap": 0.0062732696533203125,
+          "refine_stability": 0.9943381358287456,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02581774623670284
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              8,
+              4610
+            ],
+            [
+              208,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.07290666753040731,
+          "refine_score": 0.043004622724325904,
+          "refine_projected_js": 0.05596219132739468,
+          "refine_marginal_gap": 0.036503625294518845,
+          "refine_correlation_gap": 0.006217214899758498,
+          "refine_stability": 0.9895823599578999,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02580277363459554
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              8,
+              514
+            ],
+            [
+              208,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.07289865737932057,
+          "refine_score": 0.04299204249179188,
+          "refine_projected_js": 0.05591544592921241,
+          "refine_marginal_gap": 0.03649175734747024,
+          "refine_correlation_gap": 0.006198141258209944,
+          "refine_stability": 0.9922907995802877,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.025795225495075128
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              8,
+              512
+            ],
+            [
+              208,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.07292415497651773,
+          "refine_score": 0.04282092833208726,
+          "refine_projected_js": 0.055732860596660654,
+          "refine_marginal_gap": 0.036368112715463786,
+          "refine_correlation_gap": 0.006044917584707339,
+          "refine_stability": 0.9918826566605482,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.025692556999252356
+        },
+        {
+          "polytope_label_0": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              80,
+              24576
+            ],
+            [
+              136,
+              4096
+            ],
+            [
+              8196,
+              2048
+            ]
+          ],
+          "coarse_score": 0.07374222893114145,
+          "refine_score": 0.042156435157906444,
+          "refine_projected_js": 0.05488528914013175,
+          "refine_marginal_gap": 0.035054040333581345,
+          "refine_correlation_gap": 0.006386651036640008,
+          "refine_stability": 0.993551538367997,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.025293861094743866
+        },
+        {
+          "polytope_label_0": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              80,
+              24576
+            ],
+            [
+              136,
+              4096
+            ],
+            [
+              8324,
+              2048
+            ]
+          ],
+          "coarse_score": 0.07277067391976212,
+          "refine_score": 0.040760305987323706,
+          "refine_projected_js": 0.05292815627160272,
+          "refine_marginal_gap": 0.03427160353887649,
+          "refine_correlation_gap": 0.006225374061614275,
+          "refine_stability": 0.9964683064321884,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.024456183592394223
+        },
+        {
+          "polytope_label_0": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              80,
+              24576
+            ],
+            [
+              136,
+              4096
+            ],
+            [
+              8388,
+              2048
+            ]
+          ],
+          "coarse_score": 0.07253244523145581,
+          "refine_score": 0.04074240719982102,
+          "refine_projected_js": 0.05289290408746929,
+          "refine_marginal_gap": 0.034161158970424106,
+          "refine_correlation_gap": 0.0063177744547526045,
+          "refine_stability": 0.9968468995108706,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.024445444319892613
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 5,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            4,
+            2048
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            8,
+            4096
+          ],
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            0,
+            8192
+          ],
+          [
+            4,
+            2048
+          ],
+          [
+            32,
+            0
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            64,
+            0
+          ],
+          [
+            4104,
+            4096
+          ]
+        ],
+        "coarse_score": 0.06292996349298781,
+        "refine_score": 0.052013161075273553,
+        "refine_projected_js": 0.06880198921730929,
+        "refine_marginal_gap": 0.03852723136780754,
+        "refine_correlation_gap": 0.007792049087584019,
+        "refine_stability": 0.9956177966444943,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.9541205763816833,
+        "proxy_accuracy": 0.8817138671875,
+        "proxy_advantage": 0.9082411527633667,
+        "final_score": 0.39450435775051085
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              0,
+              8192
+            ],
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              4104,
+              4096
+            ]
+          ],
+          "coarse_score": 0.06292996349298781,
+          "refine_score": 0.052013161075273553,
+          "refine_projected_js": 0.06880198921730929,
+          "refine_marginal_gap": 0.03852723136780754,
+          "refine_correlation_gap": 0.007792049087584019,
+          "refine_stability": 0.9956177966444943,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9541205763816833,
+          "proxy_accuracy": 0.8817138671875,
+          "proxy_advantage": 0.9082411527633667,
+          "final_score": 0.39450435775051085
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              8208,
+              8192
+            ],
+            [
+              16392,
+              4096
+            ]
+          ],
+          "coarse_score": 0.06177183553356502,
+          "refine_score": 0.0526138387519606,
+          "refine_projected_js": 0.06988152718480795,
+          "refine_marginal_gap": 0.03782932342044891,
+          "refine_correlation_gap": 0.007726351420084636,
+          "refine_stability": 0.9972624184980848,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9534720182418823,
+          "proxy_accuracy": 0.8765869140625,
+          "proxy_advantage": 0.9069440364837646,
+          "final_score": 0.39434591784468226
+        },
+        {
+          "polytope_label_0": [
+            [
+              0,
+              8192
+            ],
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              4168,
+              4096
+            ]
+          ],
+          "coarse_score": 0.06276681935136158,
+          "refine_score": 0.05109523808820688,
+          "refine_projected_js": 0.0675637094724437,
+          "refine_marginal_gap": 0.038444761245969745,
+          "refine_correlation_gap": 0.007256295997649431,
+          "refine_stability": 0.9961721984476459,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9483959674835205,
+          "proxy_accuracy": 0.8707275390625,
+          "proxy_advantage": 0.896791934967041,
+          "final_score": 0.3893739168397406
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              8200,
+              4096
+            ],
+            [
+              8208,
+              8192
+            ]
+          ],
+          "coarse_score": 0.06197598260449824,
+          "refine_score": 0.05043156671806622,
+          "refine_projected_js": 0.06619081729062974,
+          "refine_marginal_gap": 0.03939395480685764,
+          "refine_correlation_gap": 0.007762803075214227,
+          "refine_stability": 0.9946402275383374,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.03025894003083973
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              2064,
+              8192
+            ],
+            [
+              32776,
+              4096
+            ]
+          ],
+          "coarse_score": 0.06180837614989134,
+          "refine_score": 0.050234166115018,
+          "refine_projected_js": 0.06644695183840414,
+          "refine_marginal_gap": 0.03752729627821181,
+          "refine_correlation_gap": 0.0074363285675644875,
+          "refine_stability": 0.9927730822452862,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.0301404996690108
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              64,
+              0
+            ],
+            [
+              520,
+              4096
+            ],
+            [
+              8208,
+              8192
+            ]
+          ],
+          "coarse_score": 0.06171661930587383,
+          "refine_score": 0.04967689485746868,
+          "refine_projected_js": 0.06525890953008488,
+          "refine_marginal_gap": 0.03859226287357391,
+          "refine_correlation_gap": 0.007842911717792353,
+          "refine_stability": 0.9900736618536934,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.029806136914481206
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              16392,
+              4096
+            ]
+          ],
+          "coarse_score": 0.06189888039219334,
+          "refine_score": 0.04867999086025173,
+          "refine_projected_js": 0.06388512501986894,
+          "refine_marginal_gap": 0.038439190576946926,
+          "refine_correlation_gap": 0.007140901405364275,
+          "refine_stability": 0.9959565103162811,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.029207994516151036
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              4104,
+              4096
+            ]
+          ],
+          "coarse_score": 0.060984389471195125,
+          "refine_score": 0.04791829232492683,
+          "refine_projected_js": 0.06255356749967463,
+          "refine_marginal_gap": 0.038999890524243554,
+          "refine_correlation_gap": 0.007243792215983073,
+          "refine_stability": 0.995801732689433,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.028750975394956097
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              136,
+              4096
+            ]
+          ],
+          "coarse_score": 0.0616379306838416,
+          "refine_score": 0.04782097617913412,
+          "refine_projected_js": 0.06267720538634144,
+          "refine_marginal_gap": 0.03828490726531498,
+          "refine_correlation_gap": 0.006829685686777036,
+          "refine_stability": 0.9970866023718382,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02869258570748047
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              96,
+              0
+            ],
+            [
+              112,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              8200,
+              4096
+            ]
+          ],
+          "coarse_score": 0.06074691690024086,
+          "refine_score": 0.04665331932086336,
+          "refine_projected_js": 0.06139521913201343,
+          "refine_marginal_gap": 0.03676956418960814,
+          "refine_correlation_gap": 0.006521542711804311,
+          "refine_stability": 0.9921547651788267,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.027991991592518018
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              80,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              64,
+              0
+            ],
+            [
+              8200,
+              4096
+            ]
+          ],
+          "coarse_score": 0.060742281551234026,
+          "refine_score": 0.04659082024889396,
+          "refine_projected_js": 0.06070875529683271,
+          "refine_marginal_gap": 0.03806280711340526,
+          "refine_correlation_gap": 0.007296456179271142,
+          "refine_stability": 0.9958628039148459,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.027954492149336374
+        },
+        {
+          "polytope_label_0": [
+            [
+              16,
+              8192
+            ],
+            [
+              40,
+              4096
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              80,
+              24576
+            ],
+            [
+              96,
+              0
+            ],
+            [
+              8196,
+              2048
+            ]
+          ],
+          "coarse_score": 0.06578249924876153,
+          "refine_score": 0.0419085809724024,
+          "refine_projected_js": 0.05452888878587659,
+          "refine_marginal_gap": 0.03449152386377729,
+          "refine_correlation_gap": 0.0067867703425387544,
+          "refine_stability": 0.992104871115112,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02514514858344144
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    },
+    {
+      "ok": true,
+      "anchor_index": 1,
+      "initial_pair": {
+        "polytope_label_0": [
+          [
+            4,
+            2048
+          ],
+          [
+            8,
+            4096
+          ],
+          [
+            80,
+            8192
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            64,
+            0
+          ]
+        ]
+      },
+      "best": {
+        "polytope_label_0": [
+          [
+            4,
+            2048
+          ],
+          [
+            64,
+            8192
+          ],
+          [
+            2056,
+            4096
+          ]
+        ],
+        "polytope_label_1": [
+          [
+            16,
+            8192
+          ],
+          [
+            32,
+            0
+          ],
+          [
+            64,
+            0
+          ]
+        ],
+        "coarse_score": 0.0642763876187384,
+        "refine_score": 0.04722526702807788,
+        "refine_projected_js": 0.061370086215002985,
+        "refine_marginal_gap": 0.03727056109716021,
+        "refine_correlation_gap": 0.008996327718098959,
+        "refine_stability": 0.9941689671444622,
+        "refine_input_overlap": 0.0,
+        "proxy_auc": 0.9407575130462646,
+        "proxy_accuracy": 0.8758544921875,
+        "proxy_advantage": 0.8815150260925293,
+        "final_score": 0.38094117065385846
+      },
+      "refined_candidates": [
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              64,
+              8192
+            ],
+            [
+              2056,
+              4096
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.0642763876187384,
+          "refine_score": 0.04722526702807788,
+          "refine_projected_js": 0.061370086215002985,
+          "refine_marginal_gap": 0.03727056109716021,
+          "refine_correlation_gap": 0.008996327718098959,
+          "refine_stability": 0.9941689671444622,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9407575130462646,
+          "proxy_accuracy": 0.8758544921875,
+          "proxy_advantage": 0.8815150260925293,
+          "final_score": 0.38094117065385846
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              64,
+              8192
+            ],
+            [
+              8196,
+              16400
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.0661839222869657,
+          "refine_score": 0.04828694719637875,
+          "refine_projected_js": 0.06301012428629452,
+          "refine_marginal_gap": 0.037124149383060516,
+          "refine_correlation_gap": 0.009124543828268846,
+          "refine_stability": 0.9934679817413011,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9389694929122925,
+          "proxy_accuracy": 0.8631591796875,
+          "proxy_advantage": 0.877938985824585,
+          "final_score": 0.38014776264766126
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              8,
+              4224
+            ],
+            [
+              16464,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.06430039574827272,
+          "refine_score": 0.04701401356545825,
+          "refine_projected_js": 0.06110665650009867,
+          "refine_marginal_gap": 0.03683399018787203,
+          "refine_correlation_gap": 0.009163538304467997,
+          "refine_stability": 0.9932961774886107,
+          "refine_input_overlap": 0.0,
+          "proxy_auc": 0.9396234154701233,
+          "proxy_accuracy": 0.8677978515625,
+          "proxy_advantage": 0.8792468309402466,
+          "final_score": 0.3799071405153736
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              36992
+            ],
+            [
+              16464,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.06489863606970703,
+          "refine_score": 0.046674764576826684,
+          "refine_projected_js": 0.06045478975789015,
+          "refine_marginal_gap": 0.03763955736917162,
+          "refine_correlation_gap": 0.00910992082208395,
+          "refine_stability": 0.9905089999105228,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02800485874609601
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              4224
+            ],
+            [
+              16464,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.06546654424710957,
+          "refine_score": 0.04630861381293977,
+          "refine_projected_js": 0.05987873565319068,
+          "refine_marginal_gap": 0.03751203748914931,
+          "refine_correlation_gap": 0.009211222330729166,
+          "refine_stability": 0.9912034867895251,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02778516828776386
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              4096
+            ],
+            [
+              16464,
+              8192
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              32,
+              0
+            ],
+            [
+              48,
+              8192
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.06570553689483712,
+          "refine_score": 0.045942038587027556,
+          "refine_projected_js": 0.0598132920022863,
+          "refine_marginal_gap": 0.038149515787760414,
+          "refine_correlation_gap": 0.0072699653295179205,
+          "refine_stability": 0.9877297252518913,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.027565223152216534
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              0
+            ],
+            [
+              112,
+              8192
+            ],
+            [
+              264,
+              0
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              16384
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.07235979658329539,
+          "refine_score": 0.04393036392755459,
+          "refine_projected_js": 0.05602888043811611,
+          "refine_marginal_gap": 0.039757259308345734,
+          "refine_correlation_gap": 0.008191108393172422,
+          "refine_stability": 0.989752642258867,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.026358218356532754
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              2048
+            ],
+            [
+              80,
+              8192
+            ],
+            [
+              16392,
+              4096
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              128
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.06757617084173936,
+          "refine_score": 0.043190279627208845,
+          "refine_projected_js": 0.05543347186980165,
+          "refine_marginal_gap": 0.037913731166294644,
+          "refine_correlation_gap": 0.007787916498879592,
+          "refine_stability": 0.9900499968228562,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.025914167776325308
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              84,
+              8192
+            ],
+            [
+              4100,
+              2048
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              32,
+              0
+            ],
+            [
+              48,
+              8192
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.06628747977937102,
+          "refine_score": 0.04179956715763129,
+          "refine_projected_js": 0.05477220361960378,
+          "refine_marginal_gap": 0.032114059206039186,
+          "refine_correlation_gap": 0.007134755452473958,
+          "refine_stability": 0.9944528539134374,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.025079740294578774
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              84,
+              8192
+            ],
+            [
+              4100,
+              2112
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              32,
+              0
+            ],
+            [
+              48,
+              8192
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.06556077434223741,
+          "refine_score": 0.04132234665732063,
+          "refine_projected_js": 0.054255321872327934,
+          "refine_marginal_gap": 0.031280396476624506,
+          "refine_correlation_gap": 0.007047229291250308,
+          "refine_stability": 0.9945466938896793,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.024793407994392377
+        },
+        {
+          "polytope_label_0": [
+            [
+              4,
+              10240
+            ],
+            [
+              80,
+              8192
+            ],
+            [
+              16392,
+              4096
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              16,
+              8192
+            ],
+            [
+              32,
+              128
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.06614804916137827,
+          "refine_score": 0.04088045865679577,
+          "refine_projected_js": 0.05256950253257155,
+          "refine_marginal_gap": 0.035029093424479164,
+          "refine_correlation_gap": 0.0077109864602486295,
+          "refine_stability": 0.9894695917455447,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.02452827519407746
+        },
+        {
+          "polytope_label_0": [
+            [
+              8,
+              4096
+            ],
+            [
+              80,
+              24576
+            ],
+            [
+              1028,
+              2056
+            ]
+          ],
+          "polytope_label_1": [
+            [
+              26,
+              0
+            ],
+            [
+              32,
+              0
+            ],
+            [
+              64,
+              0
+            ]
+          ],
+          "coarse_score": 0.06404283071762915,
+          "refine_score": 0.037237459588623,
+          "refine_projected_js": 0.04754707820412093,
+          "refine_marginal_gap": 0.03216903928726438,
+          "refine_correlation_gap": 0.00790648985033234,
+          "refine_stability": 0.9899771391702996,
+          "refine_input_overlap": 0.0,
+          "final_score": 0.022342475753173798
+        }
+      ],
+      "coarse_archive_size": 64,
+      "config": {
+        "num_diffs": 3,
+        "min_hw": 1,
+        "max_hw": 6,
+        "max_steps": 64,
+        "coarse_samples": 4096,
+        "coarse_panel_count": 2,
+        "projection_hashes": 48,
+        "projection_width": 8,
+        "projection_pairs": 128,
+        "total_timesteps": 20000,
+        "learning_rate": 0.0003,
+        "n_steps": 256,
+        "batch_size": 64,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "clip_range": 0.2,
+        "reward_scale": 50.0,
+        "invalid_penalty": -0.1,
+        "no_op_penalty": -0.002,
+        "step_penalty": -0.001,
+        "archive_size": 64,
+        "refine_top_k": 12,
+        "refine_samples": 16384,
+        "refine_panel_count": 3,
+        "proxy_top_k": 3,
+        "proxy_samples_per_class": 4096,
+        "proxy_epochs": 3,
+        "base_seed": 20260712,
+        "surrogate": {
+          "include_anchor_xor": true,
+          "include_previous_right": true,
+          "js_weight": 0.65,
+          "marginal_weight": 0.15,
+          "correlation_weight": 0.2,
+          "overlap_penalty": 0.05
+        }
+      }
+    }
+  ],
+  "failed_starts": [],
+  "search_config": {
+    "num_diffs": 3,
+    "min_hw": 1,
+    "max_hw": 6,
+    "max_steps": 64,
+    "coarse_samples": 4096,
+    "coarse_panel_count": 2,
+    "projection_hashes": 48,
+    "projection_width": 8,
+    "projection_pairs": 128,
+    "total_timesteps": 20000,
+    "learning_rate": 0.0003,
+    "n_steps": 256,
+    "batch_size": 64,
+    "gamma": 0.95,
+    "gae_lambda": 0.9,
+    "ent_coef": 0.01,
+    "clip_range": 0.2,
+    "reward_scale": 50.0,
+    "invalid_penalty": -0.1,
+    "no_op_penalty": -0.002,
+    "step_penalty": -0.001,
+    "archive_size": 64,
+    "refine_top_k": 12,
+    "refine_samples": 16384,
+    "refine_panel_count": 3,
+    "proxy_top_k": 3,
+    "proxy_samples_per_class": 4096,
+    "proxy_epochs": 3,
+    "base_seed": 20260712,
+    "surrogate": {
+      "include_anchor_xor": true,
+      "include_previous_right": true,
+      "js_weight": 0.65,
+      "marginal_weight": 0.15,
+      "correlation_weight": 0.2,
+      "overlap_penalty": 0.05
+    }
+  }
+}

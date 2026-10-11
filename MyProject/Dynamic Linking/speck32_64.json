@@ -1,0 +1,12 @@
+{
+    "data_type": "uint16",
+    "plaintext_size": 32,
+    "ciphertext_size": 32,
+    "master_key_size": 64,
+    "round_key_size": 16,
+    "encrypt_rounds": 22,
+    "cipher_name": "speck32_64",
+    "original_filename": "speck32_64.so",
+    "upload_type": "dll",
+    "saved_path": "../Info/speck32_64.so"
+}

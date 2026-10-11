@@ -1,0 +1,498 @@
+nohup: ignoring input
+====================================================================================================
+SPECK32/64 enhanced-PDND key recovery
+====================================================================================================
+SPECK32/64 self-test passed.
+
+
+----------------------------------------------------------------------------------------------------
+实验文件路径检查
+----------------------------------------------------------------------------------------------------
+脚本目录：/home/yaya666/MyProjection/application
+项目目录：/home/yaya666/MyProjection
+结果目录：/home/yaya666/MyProjection/key_recovery_results
+
+R5差分文件：/home/yaya666/MyProjection/data/best_polytope_pair_5round.json
+  exists = True
+R5模型权重：/home/yaya666/MyProjection/application/pdnd_accuracy_improved_checkpoints/speck32_5r_improved_best_weights.pth
+  exists = True
+R6差分文件：/home/yaya666/MyProjection/data/best_polytope_pair_6round.json
+  exists = True
+R6模型权重：/home/yaya666/MyProjection/application/pdnd_accuracy_improved_checkpoints/speck32_6r_improved_best_weights.pth
+  exists = True
+R7差分文件：/home/yaya666/MyProjection/data/best_polytope_pair_7round.json
+  exists = True
+R7模型权重：/home/yaya666/MyProjection/application/pdnd_accuracy_improved_checkpoints/speck32_7r_improved_best_weights.pth
+  exists = True
+R8差分文件：/home/yaya666/MyProjection/data/best_polytope_pair_7round.json
+  exists = True
+R8模型权重：/home/yaya666/MyProjection/application/pdnd_accuracy_improved_checkpoints/speck32_8r_improved_best_weights.pth
+  exists = True
+
+实验文件路径检查通过。
+----------------------------------------------------------------------------------------------------
+
+####################################################################################################
+运行模式：Mirzaali-style correct-key / wrong-key response test
+####################################################################################################
+
+====================================================================================================
+开始实验：R5 PDND -> R6 SPECK32/64
+差分文件：/home/yaya666/MyProjection/data/best_polytope_pair_5round.json
+模型权重：/home/yaya666/MyProjection/application/pdnd_accuracy_improved_checkpoints/speck32_5r_improved_best_weights.pth
+样本数量：1,000,000
+重复次数：100
+====================================================================================================
+================================================================================================
+Mirzaali-style: R5 PDND -> R6 SPECK32/64
+device=cuda, threshold(logit)=+0.000000
+samples/trial=1,000,000, trials=100
+================================================================================================
+[001/100] true=0xc52d correct=99.6806% | wrong=0xb6ff wrong_acc=61.0429% | gap=+38.6377% | 15.6s
+[002/100] true=0x6a4a correct=99.6136% | wrong=0x92d6 wrong_acc=67.8436% | gap=+31.7700% | 15.3s
+[003/100] true=0xeee8 correct=99.6543% | wrong=0x1523 wrong_acc=56.8763% | gap=+42.7780% | 15.3s
+[004/100] true=0xf4b3 correct=99.5783% | wrong=0x010a wrong_acc=58.2353% | gap=+41.3430% | 15.3s
+[005/100] true=0xae53 correct=99.6116% | wrong=0xd4ba wrong_acc=58.7771% | gap=+40.8345% | 15.2s
+[006/100] true=0x587a correct=99.6016% | wrong=0x420e wrong_acc=63.2352% | gap=+36.3664% | 15.2s
+[007/100] true=0x45dc correct=99.6211% | wrong=0x164b wrong_acc=59.6362% | gap=+39.9849% | 15.2s
+[008/100] true=0x9c97 correct=99.5904% | wrong=0x939d wrong_acc=58.3305% | gap=+41.2599% | 15.2s
+[009/100] true=0x0ad2 correct=99.6722% | wrong=0x0e23 wrong_acc=65.2362% | gap=+34.4360% | 15.2s
+[010/100] true=0x3fbb correct=99.5859% | wrong=0x4bc0 wrong_acc=59.4016% | gap=+40.1843% | 15.3s
+[011/100] true=0xf722 correct=99.6851% | wrong=0xea61 wrong_acc=56.0743% | gap=+43.6108% | 15.2s
+[012/100] true=0x475d correct=99.6084% | wrong=0x3b96 wrong_acc=55.5451% | gap=+44.0633% | 15.2s
+[013/100] true=0x7d3d correct=99.6294% | wrong=0xa6aa wrong_acc=56.5502% | gap=+43.0792% | 15.2s
+[014/100] true=0xa9df correct=99.5701% | wrong=0x0ba0 wrong_acc=59.4171% | gap=+40.1530% | 15.3s
+[015/100] true=0x9cb2 correct=99.6636% | wrong=0x5ea8 wrong_acc=62.2480% | gap=+37.4156% | 15.2s
+[016/100] true=0xc541 correct=99.6435% | wrong=0x9ade wrong_acc=53.8144% | gap=+45.8291% | 15.3s
+[017/100] true=0x88ca correct=99.6765% | wrong=0x6320 wrong_acc=58.8304% | gap=+40.8461% | 15.3s
+[018/100] true=0x28ea correct=99.6429% | wrong=0x7519 wrong_acc=54.6123% | gap=+45.0306% | 15.3s
+[019/100] true=0xcd39 correct=99.6521% | wrong=0x41ac wrong_acc=57.9805% | gap=+41.6716% | 15.3s
+[020/100] true=0x929d correct=99.5888% | wrong=0x61a5 wrong_acc=64.4271% | gap=+35.1617% | 15.3s
+[021/100] true=0xc602 correct=99.6749% | wrong=0xf46e wrong_acc=64.8891% | gap=+34.7858% | 15.3s
+[022/100] true=0x542a correct=99.6055% | wrong=0x62f5 wrong_acc=54.1722% | gap=+45.4333% | 15.3s
+[023/100] true=0x4c01 correct=99.6187% | wrong=0xc17c wrong_acc=55.9964% | gap=+43.6223% | 15.3s
+[024/100] true=0xa26b correct=99.6557% | wrong=0xc02e wrong_acc=63.8180% | gap=+35.8377% | 15.3s
+[025/100] true=0x9f25 correct=99.6371% | wrong=0x3977 wrong_acc=57.6533% | gap=+41.9838% | 15.3s
+[026/100] true=0x8341 correct=99.6489% | wrong=0x81df wrong_acc=61.0088% | gap=+38.6401% | 15.3s
+[027/100] true=0xb2dc correct=99.6513% | wrong=0x9c9e wrong_acc=56.2798% | gap=+43.3715% | 15.3s
+[028/100] true=0xd0b3 correct=99.6092% | wrong=0xa18b wrong_acc=74.3007% | gap=+25.3085% | 15.3s
+[029/100] true=0x2b03 correct=99.6331% | wrong=0x3123 wrong_acc=69.8327% | gap=+29.8004% | 15.3s
+[030/100] true=0xed3a correct=99.6536% | wrong=0x80b9 wrong_acc=56.8609% | gap=+42.7927% | 15.4s
+[031/100] true=0xd1cf correct=99.6783% | wrong=0xb594 wrong_acc=59.7433% | gap=+39.9350% | 15.4s
+[032/100] true=0xe81c correct=99.6466% | wrong=0xb436 wrong_acc=57.0310% | gap=+42.6156% | 15.4s
+[033/100] true=0x0523 correct=99.6081% | wrong=0x2305 wrong_acc=55.5261% | gap=+44.0820% | 15.4s
+[034/100] true=0x8623 correct=99.6414% | wrong=0xdb57 wrong_acc=55.8890% | gap=+43.7524% | 15.4s
+[035/100] true=0x57ba correct=99.6946% | wrong=0x2835 wrong_acc=54.1459% | gap=+45.5487% | 15.4s
+[036/100] true=0x1ce0 correct=99.6230% | wrong=0x8733 wrong_acc=57.7042% | gap=+41.9188% | 15.4s
+[037/100] true=0x5016 correct=99.6264% | wrong=0xbafd wrong_acc=56.6588% | gap=+42.9676% | 15.4s
+[038/100] true=0x161b correct=99.6583% | wrong=0x543f wrong_acc=69.4288% | gap=+30.2295% | 15.4s
+[039/100] true=0xa6a9 correct=99.6257% | wrong=0x0762 wrong_acc=66.9015% | gap=+32.7242% | 15.4s
+[040/100] true=0x18f5 correct=99.6623% | wrong=0xe0ec wrong_acc=76.1864% | gap=+23.4759% | 15.4s
+[041/100] true=0x6c72 correct=99.5873% | wrong=0xceff wrong_acc=61.5676% | gap=+38.0197% | 15.4s
+[042/100] true=0x00bf correct=99.6433% | wrong=0xd54a wrong_acc=57.2488% | gap=+42.3945% | 15.4s
+[043/100] true=0x3460 correct=99.5960% | wrong=0xcbeb wrong_acc=54.3644% | gap=+45.2316% | 15.4s
+[044/100] true=0x04a9 correct=99.6437% | wrong=0x41f0 wrong_acc=59.0989% | gap=+40.5448% | 15.4s
+[045/100] true=0xc12e correct=99.6040% | wrong=0x4017 wrong_acc=71.1287% | gap=+28.4753% | 15.3s
+[046/100] true=0xae8d correct=99.6355% | wrong=0xfa41 wrong_acc=60.8050% | gap=+38.8305% | 15.4s
+[047/100] true=0xe2b7 correct=99.6312% | wrong=0x3383 wrong_acc=68.3483% | gap=+31.2829% | 15.3s
+[048/100] true=0x789d correct=99.5898% | wrong=0xeec8 wrong_acc=58.0270% | gap=+41.5628% | 15.4s
+[049/100] true=0x8c30 correct=99.5635% | wrong=0xcb4c wrong_acc=56.9003% | gap=+42.6632% | 15.3s
+[050/100] true=0xfe60 correct=99.6758% | wrong=0xb597 wrong_acc=57.0082% | gap=+42.6676% | 15.4s
+[051/100] true=0x4e56 correct=99.6347% | wrong=0xfca4 wrong_acc=61.1672% | gap=+38.4675% | 15.3s
+[052/100] true=0x4846 correct=99.6354% | wrong=0x5771 wrong_acc=54.1424% | gap=+45.4930% | 15.4s
+[053/100] true=0xa124 correct=99.6255% | wrong=0x9e57 wrong_acc=54.4939% | gap=+45.1316% | 15.4s
+[054/100] true=0xc927 correct=99.6105% | wrong=0xe58c wrong_acc=55.6054% | gap=+44.0051% | 15.4s
+[055/100] true=0x33e4 correct=99.6326% | wrong=0x49b1 wrong_acc=58.5905% | gap=+41.0421% | 15.4s
+[056/100] true=0x43f0 correct=99.6149% | wrong=0x21b6 wrong_acc=61.2534% | gap=+38.3615% | 15.4s
+[057/100] true=0xa613 correct=99.6167% | wrong=0x68ac wrong_acc=53.4909% | gap=+46.1258% | 15.4s
+[058/100] true=0x583c correct=99.6304% | wrong=0x16ad wrong_acc=58.5859% | gap=+41.0445% | 15.5s
+[059/100] true=0x2b17 correct=99.5978% | wrong=0x091e wrong_acc=66.5619% | gap=+33.0359% | 15.4s
+[060/100] true=0x38b5 correct=99.6628% | wrong=0xbe55 wrong_acc=66.4431% | gap=+33.2197% | 15.4s
+[061/100] true=0xd5cb correct=99.6691% | wrong=0xd6d1 wrong_acc=63.0497% | gap=+36.6194% | 15.4s
+[062/100] true=0xe091 correct=99.6388% | wrong=0xf685 wrong_acc=67.1059% | gap=+32.5329% | 15.4s
+[063/100] true=0xb52a correct=99.6352% | wrong=0x8ac0 wrong_acc=55.7067% | gap=+43.9285% | 15.4s
+[064/100] true=0x9ad8 correct=99.5622% | wrong=0x12c8 wrong_acc=86.6980% | gap=+12.8642% | 15.4s
+[065/100] true=0xc4c9 correct=99.6465% | wrong=0x763b wrong_acc=60.7229% | gap=+38.9236% | 15.4s
+[066/100] true=0x54ab correct=99.6578% | wrong=0x486a wrong_acc=60.7253% | gap=+38.9325% | 15.4s
+[067/100] true=0xf0ac correct=99.6195% | wrong=0x8a54 wrong_acc=61.3103% | gap=+38.3092% | 15.4s
+[068/100] true=0x54f9 correct=99.6149% | wrong=0x7607 wrong_acc=59.6815% | gap=+39.9334% | 15.4s
+[069/100] true=0x93c1 correct=99.5589% | wrong=0x0e1e wrong_acc=53.8045% | gap=+45.7544% | 15.4s
+[070/100] true=0x6cd4 correct=99.6473% | wrong=0x91e9 wrong_acc=55.1361% | gap=+44.5112% | 15.4s
+[071/100] true=0x174b correct=99.5740% | wrong=0xffe4 wrong_acc=64.1073% | gap=+35.4667% | 15.4s
+[072/100] true=0x6522 correct=99.6065% | wrong=0xc703 wrong_acc=69.2624% | gap=+30.3441% | 15.4s
+[073/100] true=0x2119 correct=99.5958% | wrong=0xce78 wrong_acc=57.5224% | gap=+42.0734% | 15.4s
+[074/100] true=0xef42 correct=99.5806% | wrong=0x85f2 wrong_acc=64.6003% | gap=+34.9803% | 15.4s
+[075/100] true=0x2ab4 correct=99.6437% | wrong=0x2a94 wrong_acc=97.5891% | gap=+2.0546% | 15.4s
+[076/100] true=0x1164 correct=99.6492% | wrong=0x8243 wrong_acc=60.5713% | gap=+39.0779% | 15.4s
+[077/100] true=0xa725 correct=99.5639% | wrong=0x3aaa wrong_acc=55.0487% | gap=+44.5152% | 15.4s
+[078/100] true=0x7504 correct=99.6788% | wrong=0xabb5 wrong_acc=57.7156% | gap=+41.9632% | 15.4s
+[079/100] true=0x2524 correct=99.6425% | wrong=0x3ebd wrong_acc=59.9437% | gap=+39.6988% | 15.5s
+[080/100] true=0x2084 correct=99.6686% | wrong=0x8655 wrong_acc=60.4103% | gap=+39.2583% | 15.4s
+[081/100] true=0xadcc correct=99.5717% | wrong=0x715a wrong_acc=55.1271% | gap=+44.4446% | 15.4s
+[082/100] true=0x5d82 correct=99.7266% | wrong=0xb641 wrong_acc=59.0623% | gap=+40.6643% | 15.4s
+[083/100] true=0xbe09 correct=99.6324% | wrong=0x7282 wrong_acc=57.4554% | gap=+42.1770% | 15.4s
+[084/100] true=0x64a6 correct=99.6266% | wrong=0xb6dc wrong_acc=60.2812% | gap=+39.3454% | 15.4s
+[085/100] true=0x62f5 correct=99.6620% | wrong=0xd17c wrong_acc=62.5843% | gap=+37.0777% | 15.4s
+[086/100] true=0xa61b correct=99.6077% | wrong=0x33a2 wrong_acc=59.2426% | gap=+40.3651% | 15.4s
+[087/100] true=0x66c5 correct=99.5873% | wrong=0x8833 wrong_acc=53.6091% | gap=+45.9782% | 15.4s
+[088/100] true=0x0c29 correct=99.6025% | wrong=0xa031 wrong_acc=70.8004% | gap=+28.8021% | 15.4s
+[089/100] true=0x745d correct=99.6633% | wrong=0x4cf5 wrong_acc=73.4042% | gap=+26.2591% | 15.4s
+[090/100] true=0x577a correct=99.6234% | wrong=0xa33d wrong_acc=56.9119% | gap=+42.7115% | 15.3s
+[091/100] true=0x2100 correct=99.6108% | wrong=0x39d1 wrong_acc=70.4711% | gap=+29.1397% | 15.3s
+[092/100] true=0x8518 correct=99.5881% | wrong=0x6ba4 wrong_acc=56.8151% | gap=+42.7730% | 15.3s
+[093/100] true=0x67dd correct=99.6361% | wrong=0x7968 wrong_acc=56.4264% | gap=+43.2097% | 15.3s
+[094/100] true=0xb476 correct=99.5955% | wrong=0xef14 wrong_acc=59.4372% | gap=+40.1583% | 15.3s
+[095/100] true=0x5e3f correct=99.5581% | wrong=0x6ac8 wrong_acc=56.0495% | gap=+43.5086% | 15.3s
+[096/100] true=0xb5e6 correct=99.6358% | wrong=0xbe7a wrong_acc=59.2439% | gap=+40.3919% | 15.3s
+[097/100] true=0xafb3 correct=99.5703% | wrong=0xd1af wrong_acc=62.7320% | gap=+36.8383% | 15.3s
+[098/100] true=0xdd3b correct=99.6460% | wrong=0x3d87 wrong_acc=73.7095% | gap=+25.9365% | 15.3s
+[099/100] true=0xc23e correct=99.6201% | wrong=0x3a76 wrong_acc=77.8939% | gap=+21.7262% | 15.4s
+[100/100] true=0x2133 correct=99.5970% | wrong=0x3b69 wrong_acc=57.7752% | gap=+41.8218% | 15.4s
+结果已保存: /home/yaya666/MyProjection/key_recovery_results/mirzaali_style_R5_to_R6.json
+
+====================================================================================================
+开始实验：R6 PDND -> R7 SPECK32/64
+差分文件：/home/yaya666/MyProjection/data/best_polytope_pair_6round.json
+模型权重：/home/yaya666/MyProjection/application/pdnd_accuracy_improved_checkpoints/speck32_6r_improved_best_weights.pth
+样本数量：1,000,000
+重复次数：100
+====================================================================================================
+================================================================================================
+Mirzaali-style: R6 PDND -> R7 SPECK32/64
+device=cuda, threshold(logit)=+0.000000
+samples/trial=1,000,000, trials=100
+================================================================================================
+[001/100] true=0x01f1 correct=92.9437% | wrong=0xd52a wrong_acc=52.3246% | gap=+40.6191% | 15.4s
+[002/100] true=0x90f2 correct=92.9591% | wrong=0xbfa5 wrong_acc=50.2569% | gap=+42.7022% | 15.4s
+[003/100] true=0x9762 correct=93.0496% | wrong=0xda67 wrong_acc=51.6231% | gap=+41.4265% | 15.4s
+[004/100] true=0xbeed correct=93.3407% | wrong=0x010a wrong_acc=50.2753% | gap=+43.0654% | 15.4s
+[005/100] true=0x1ff0 correct=93.7223% | wrong=0xa2d8 wrong_acc=51.7427% | gap=+41.9796% | 15.4s
+[006/100] true=0x7067 correct=93.2018% | wrong=0x6423 wrong_acc=53.5200% | gap=+39.6818% | 15.4s
+[007/100] true=0x6cd0 correct=92.2686% | wrong=0x3e86 wrong_acc=54.9075% | gap=+37.3611% | 15.4s
+[008/100] true=0xaad4 correct=92.5449% | wrong=0x1ee5 wrong_acc=54.7348% | gap=+37.8101% | 15.4s
+[009/100] true=0x4f08 correct=92.7952% | wrong=0x9ae2 wrong_acc=51.7491% | gap=+41.0461% | 15.4s
+[010/100] true=0x4423 correct=92.9215% | wrong=0x48e7 wrong_acc=51.9026% | gap=+41.0189% | 15.4s
+[011/100] true=0x89ba correct=92.8905% | wrong=0x9fbf wrong_acc=52.9596% | gap=+39.9309% | 15.4s
+[012/100] true=0x7f0b correct=91.9243% | wrong=0x2fdf wrong_acc=59.8433% | gap=+32.0810% | 15.4s
+[013/100] true=0x5fb5 correct=93.2516% | wrong=0x0fb4 wrong_acc=73.1075% | gap=+20.1441% | 15.4s
+[014/100] true=0x4b90 correct=94.1107% | wrong=0xc497 wrong_acc=51.5080% | gap=+42.6027% | 15.4s
+[015/100] true=0xc3fe correct=92.1870% | wrong=0xe2b7 wrong_acc=59.2621% | gap=+32.9249% | 15.4s
+[016/100] true=0xf623 correct=92.4188% | wrong=0x4803 wrong_acc=54.1981% | gap=+38.2207% | 15.4s
+[017/100] true=0xb151 correct=92.0162% | wrong=0x6717 wrong_acc=51.6183% | gap=+40.3979% | 15.4s
+[018/100] true=0x2154 correct=92.9762% | wrong=0x7e9a wrong_acc=50.1940% | gap=+42.7822% | 15.4s
+[019/100] true=0x835f correct=91.9871% | wrong=0x03d6 wrong_acc=64.2022% | gap=+27.7849% | 15.4s
+[020/100] true=0xacc1 correct=95.1779% | wrong=0xe9f6 wrong_acc=52.0359% | gap=+43.1420% | 15.4s
+[021/100] true=0xfb9d correct=92.7986% | wrong=0x9c5c wrong_acc=55.3358% | gap=+37.4628% | 15.4s
+[022/100] true=0x0a3a correct=92.1655% | wrong=0x67a2 wrong_acc=51.3411% | gap=+40.8244% | 15.4s
+[023/100] true=0x71b7 correct=92.1144% | wrong=0xbc01 wrong_acc=50.2923% | gap=+41.8221% | 15.4s
+[024/100] true=0x0b7b correct=92.7864% | wrong=0xb5de wrong_acc=50.4607% | gap=+42.3257% | 15.4s
+[025/100] true=0xde92 correct=93.4077% | wrong=0x400f wrong_acc=50.4095% | gap=+42.9982% | 15.4s
+[026/100] true=0x7bec correct=93.6507% | wrong=0x4081 wrong_acc=51.8407% | gap=+41.8100% | 15.4s
+[027/100] true=0x13b2 correct=93.0633% | wrong=0x91c5 wrong_acc=55.6290% | gap=+37.4343% | 15.4s
+[028/100] true=0x31bb correct=92.7823% | wrong=0xb05b wrong_acc=70.9928% | gap=+21.7895% | 15.4s
+[029/100] true=0x0681 correct=94.2736% | wrong=0xd425 wrong_acc=56.0842% | gap=+38.1894% | 15.4s
+[030/100] true=0x2bfc correct=93.5769% | wrong=0x0f35 wrong_acc=53.8002% | gap=+39.7767% | 15.4s
+[031/100] true=0x4dba correct=92.7876% | wrong=0x09b8 wrong_acc=60.4906% | gap=+32.2970% | 15.4s
+[032/100] true=0x19f6 correct=93.2696% | wrong=0x1848 wrong_acc=57.0414% | gap=+36.2282% | 15.4s
+[033/100] true=0x67c2 correct=92.3800% | wrong=0x1a65 wrong_acc=50.2686% | gap=+42.1114% | 15.4s
+[034/100] true=0x5469 correct=92.6356% | wrong=0x334c wrong_acc=51.6869% | gap=+40.9487% | 15.4s
+[035/100] true=0xe76b correct=93.1684% | wrong=0xbaa8 wrong_acc=50.6716% | gap=+42.4968% | 15.4s
+[036/100] true=0xff37 correct=93.5227% | wrong=0xda6e wrong_acc=52.3859% | gap=+41.1368% | 15.4s
+[037/100] true=0x29eb correct=93.5612% | wrong=0xc273 wrong_acc=52.9581% | gap=+40.6031% | 15.4s
+[038/100] true=0x5c49 correct=92.9290% | wrong=0x5102 wrong_acc=50.5792% | gap=+42.3498% | 15.4s
+[039/100] true=0x4a30 correct=92.3563% | wrong=0xc82b wrong_acc=56.0317% | gap=+36.3246% | 15.4s
+[040/100] true=0x0a51 correct=93.2247% | wrong=0x129e wrong_acc=54.3075% | gap=+38.9172% | 15.4s
+[041/100] true=0x557d correct=92.7449% | wrong=0xb367 wrong_acc=51.8131% | gap=+40.9318% | 15.4s
+[042/100] true=0x7f88 correct=93.2518% | wrong=0x818a wrong_acc=51.6620% | gap=+41.5898% | 15.4s
+[043/100] true=0xe79d correct=93.4298% | wrong=0x84aa wrong_acc=55.1116% | gap=+38.3182% | 15.4s
+[044/100] true=0xe439 correct=93.9534% | wrong=0x0e2c wrong_acc=53.1676% | gap=+40.7858% | 15.4s
+[045/100] true=0xda1d correct=92.9117% | wrong=0xe94e wrong_acc=54.2382% | gap=+38.6735% | 15.4s
+[046/100] true=0xe18e correct=92.7099% | wrong=0x91b6 wrong_acc=73.0909% | gap=+19.6190% | 15.4s
+[047/100] true=0x0fa0 correct=92.4538% | wrong=0xdeb4 wrong_acc=57.6760% | gap=+34.7778% | 15.4s
+[048/100] true=0x7cf9 correct=92.1881% | wrong=0x8c6c wrong_acc=58.8987% | gap=+33.2894% | 15.4s
+[049/100] true=0x0fae correct=93.1172% | wrong=0x5f9f wrong_acc=67.1524% | gap=+25.9648% | 15.4s
+[050/100] true=0xad01 correct=93.3209% | wrong=0x2863 wrong_acc=53.4669% | gap=+39.8540% | 15.4s
+[051/100] true=0xfc4e correct=92.9405% | wrong=0x02b8 wrong_acc=50.1851% | gap=+42.7554% | 15.4s
+[052/100] true=0x643c correct=93.7767% | wrong=0x100b wrong_acc=52.5036% | gap=+41.2731% | 15.4s
+[053/100] true=0x379e correct=92.3822% | wrong=0x744b wrong_acc=55.0369% | gap=+37.3453% | 15.4s
+[054/100] true=0x71b4 correct=93.1090% | wrong=0x8e08 wrong_acc=50.5391% | gap=+42.5699% | 15.4s
+[055/100] true=0x2299 correct=92.3648% | wrong=0x2f51 wrong_acc=51.8763% | gap=+40.4885% | 15.4s
+[056/100] true=0xc55d correct=92.2574% | wrong=0x4a8c wrong_acc=51.1630% | gap=+41.0944% | 15.4s
+[057/100] true=0xaae7 correct=92.3784% | wrong=0x5350 wrong_acc=52.9376% | gap=+39.4408% | 15.4s
+[058/100] true=0x3775 correct=91.9076% | wrong=0xb26a wrong_acc=51.8296% | gap=+40.0780% | 15.4s
+[059/100] true=0x75cf correct=92.4531% | wrong=0x01e9 wrong_acc=52.5898% | gap=+39.8633% | 15.4s
+[060/100] true=0x25e8 correct=93.1146% | wrong=0x2408 wrong_acc=71.7931% | gap=+21.3215% | 15.4s
+[061/100] true=0xa09d correct=92.4628% | wrong=0x650b wrong_acc=51.8333% | gap=+40.6295% | 15.4s
+[062/100] true=0xaf5e correct=94.2065% | wrong=0x8f7c wrong_acc=71.3990% | gap=+22.8075% | 15.4s
+[063/100] true=0x6b7f correct=93.4638% | wrong=0xea3f wrong_acc=74.7377% | gap=+18.7261% | 15.4s
+[064/100] true=0x037e correct=92.8998% | wrong=0xaafb wrong_acc=53.9284% | gap=+38.9714% | 15.4s
+[065/100] true=0xaff9 correct=94.0696% | wrong=0x27c3 wrong_acc=58.6976% | gap=+35.3720% | 15.4s
+[066/100] true=0x6157 correct=93.1948% | wrong=0x96b9 wrong_acc=51.3003% | gap=+41.8945% | 15.4s
+[067/100] true=0xec13 correct=92.7416% | wrong=0x683d wrong_acc=53.0398% | gap=+39.7018% | 15.4s
+[068/100] true=0xfe33 correct=92.8239% | wrong=0x502c wrong_acc=50.4603% | gap=+42.3636% | 15.4s
+[069/100] true=0x8617 correct=91.9306% | wrong=0xb8ec wrong_acc=50.2718% | gap=+41.6588% | 15.4s
+[070/100] true=0x4ee0 correct=92.4545% | wrong=0x0fe4 wrong_acc=62.9426% | gap=+29.5119% | 15.4s
+[071/100] true=0x36ad correct=92.3247% | wrong=0x2fc5 wrong_acc=55.1913% | gap=+37.1334% | 15.3s
+[072/100] true=0xddd9 correct=92.3977% | wrong=0x6364 wrong_acc=50.3310% | gap=+42.0667% | 15.3s
+[073/100] true=0x3df5 correct=92.8616% | wrong=0xd3c2 wrong_acc=50.5487% | gap=+42.3129% | 15.3s
+[074/100] true=0x290e correct=93.5311% | wrong=0xc203 wrong_acc=51.8516% | gap=+41.6795% | 15.3s
+[075/100] true=0xdd8c correct=92.8284% | wrong=0xbe5d wrong_acc=56.2290% | gap=+36.5994% | 15.3s
+[076/100] true=0x5601 correct=92.6481% | wrong=0xcb12 wrong_acc=50.5590% | gap=+42.0891% | 15.3s
+[077/100] true=0xd642 correct=92.2403% | wrong=0x7fb7 wrong_acc=53.2412% | gap=+38.9991% | 15.3s
+[078/100] true=0x510e correct=91.7553% | wrong=0x691e wrong_acc=62.2960% | gap=+29.4593% | 15.3s
+[079/100] true=0xd2e9 correct=92.2765% | wrong=0xcdeb wrong_acc=51.9599% | gap=+40.3166% | 15.3s
+[080/100] true=0xe808 correct=92.7654% | wrong=0x9097 wrong_acc=54.4343% | gap=+38.3311% | 15.3s
+[081/100] true=0x8e4f correct=93.0750% | wrong=0x3242 wrong_acc=51.1766% | gap=+41.8984% | 15.3s
+[082/100] true=0x3c15 correct=92.8369% | wrong=0xd319 wrong_acc=50.9396% | gap=+41.8973% | 15.3s
+[083/100] true=0xfe20 correct=92.6558% | wrong=0xb831 wrong_acc=53.4523% | gap=+39.2035% | 15.3s
+[084/100] true=0xc2a1 correct=93.1409% | wrong=0xc732 wrong_acc=52.8404% | gap=+40.3005% | 15.3s
+[085/100] true=0x740c correct=92.5475% | wrong=0x0d9b wrong_acc=53.0361% | gap=+39.5114% | 15.3s
+[086/100] true=0x5f00 correct=93.1469% | wrong=0x0bde wrong_acc=51.8677% | gap=+41.2792% | 15.2s
+[087/100] true=0x96cf correct=93.1685% | wrong=0xdb17 wrong_acc=51.3952% | gap=+41.7733% | 15.2s
+[088/100] true=0xc554 correct=92.9758% | wrong=0x3893 wrong_acc=50.2909% | gap=+42.6849% | 15.3s
+[089/100] true=0xb33c correct=93.2760% | wrong=0x90b8 wrong_acc=56.2550% | gap=+37.0210% | 15.3s
+[090/100] true=0xefff correct=93.5929% | wrong=0x66cb wrong_acc=54.3546% | gap=+39.2383% | 15.3s
+[091/100] true=0xda64 correct=91.8315% | wrong=0x0742 wrong_acc=50.3316% | gap=+41.4999% | 15.3s
+[092/100] true=0x7a96 correct=93.2042% | wrong=0x1434 wrong_acc=51.3695% | gap=+41.8347% | 15.3s
+[093/100] true=0x814a correct=92.2590% | wrong=0x5f1c wrong_acc=50.4138% | gap=+41.8452% | 15.3s
+[094/100] true=0x6330 correct=92.6709% | wrong=0x789c wrong_acc=52.1603% | gap=+40.5106% | 15.3s
+[095/100] true=0xe322 correct=92.7300% | wrong=0x213a wrong_acc=58.3214% | gap=+34.4086% | 15.3s
+[096/100] true=0x7972 correct=92.4210% | wrong=0xfac8 wrong_acc=54.2275% | gap=+38.1935% | 15.3s
+[097/100] true=0xfc41 correct=93.8142% | wrong=0x1ccd wrong_acc=61.5278% | gap=+32.2864% | 15.3s
+[098/100] true=0xe415 correct=91.9697% | wrong=0xdb01 wrong_acc=50.7104% | gap=+41.2593% | 15.3s
+[099/100] true=0x98b8 correct=93.1895% | wrong=0xecb8 wrong_acc=62.2416% | gap=+30.9479% | 15.3s
+[100/100] true=0x3347 correct=92.3742% | wrong=0x0123 wrong_acc=55.7386% | gap=+36.6356% | 15.3s
+结果已保存: /home/yaya666/MyProjection/key_recovery_results/mirzaali_style_R6_to_R7.json
+
+====================================================================================================
+开始实验：R7 PDND -> R8 SPECK32/64
+差分文件：/home/yaya666/MyProjection/data/best_polytope_pair_7round.json
+模型权重：/home/yaya666/MyProjection/application/pdnd_accuracy_improved_checkpoints/speck32_7r_improved_best_weights.pth
+样本数量：1,000,000
+重复次数：100
+====================================================================================================
+================================================================================================
+Mirzaali-style: R7 PDND -> R8 SPECK32/64
+device=cuda, threshold(logit)=+0.000000
+samples/trial=1,000,000, trials=100
+================================================================================================
+[001/100] true=0x3dff correct=66.8202% | wrong=0xc9af wrong_acc=50.6901% | gap=+16.1301% | 15.2s
+[002/100] true=0x5466 correct=67.1551% | wrong=0x690d wrong_acc=50.1197% | gap=+17.0354% | 15.3s
+[003/100] true=0x5180 correct=67.7913% | wrong=0xf829 wrong_acc=50.2253% | gap=+17.5660% | 15.3s
+[004/100] true=0x67fc correct=68.8296% | wrong=0x1d30 wrong_acc=50.1079% | gap=+18.7217% | 15.3s
+[005/100] true=0x43db correct=66.9866% | wrong=0xa830 wrong_acc=50.1494% | gap=+16.8372% | 15.3s
+[006/100] true=0xdf1c correct=68.9225% | wrong=0xcb59 wrong_acc=50.5209% | gap=+18.4016% | 15.3s
+[007/100] true=0x49d4 correct=67.9154% | wrong=0x418a wrong_acc=50.1506% | gap=+17.7648% | 15.3s
+[008/100] true=0x1a13 correct=68.0685% | wrong=0x85db wrong_acc=50.3466% | gap=+17.7219% | 15.3s
+[009/100] true=0x3350 correct=67.4119% | wrong=0xb9cd wrong_acc=50.0901% | gap=+17.3218% | 15.3s
+[010/100] true=0xbf8d correct=67.6868% | wrong=0xadd7 wrong_acc=50.4301% | gap=+17.2567% | 15.3s
+[011/100] true=0x907e correct=68.6447% | wrong=0x6b31 wrong_acc=50.0908% | gap=+18.5539% | 15.3s
+[012/100] true=0x7371 correct=69.4809% | wrong=0x9fdf wrong_acc=50.0584% | gap=+19.4225% | 15.2s
+[013/100] true=0x2408 correct=68.2257% | wrong=0x06d3 wrong_acc=50.2843% | gap=+17.9414% | 15.3s
+[014/100] true=0x6482 correct=67.6976% | wrong=0x8d49 wrong_acc=50.1084% | gap=+17.5892% | 15.3s
+[015/100] true=0xc301 correct=67.9192% | wrong=0xffa9 wrong_acc=50.3119% | gap=+17.6073% | 15.3s
+[016/100] true=0xeb5c correct=67.9679% | wrong=0x1773 wrong_acc=50.0618% | gap=+17.9061% | 15.3s
+[017/100] true=0x1c39 correct=66.6437% | wrong=0xf744 wrong_acc=50.0343% | gap=+16.6094% | 15.3s
+[018/100] true=0xba54 correct=67.6046% | wrong=0x44d0 wrong_acc=50.2607% | gap=+17.3439% | 15.3s
+[019/100] true=0xf2d1 correct=68.9446% | wrong=0x341c wrong_acc=50.4919% | gap=+18.4527% | 15.3s
+[020/100] true=0x52ae correct=67.1761% | wrong=0x9ff5 wrong_acc=50.0555% | gap=+17.1206% | 15.3s
+[021/100] true=0x3d1e correct=67.8396% | wrong=0x49b3 wrong_acc=50.2045% | gap=+17.6351% | 15.3s
+[022/100] true=0xfbc1 correct=66.4738% | wrong=0x506b wrong_acc=50.2188% | gap=+16.2550% | 15.3s
+[023/100] true=0x89f5 correct=67.5902% | wrong=0x39b4 wrong_acc=51.8639% | gap=+15.7263% | 15.3s
+[024/100] true=0x8597 correct=68.5514% | wrong=0x7ed1 wrong_acc=50.1192% | gap=+18.4322% | 15.3s
+[025/100] true=0xcb04 correct=70.6502% | wrong=0xa97c wrong_acc=50.7243% | gap=+19.9259% | 15.3s
+[026/100] true=0x1dd4 correct=66.8909% | wrong=0x46b5 wrong_acc=51.4748% | gap=+15.4161% | 15.3s
+[027/100] true=0xcba0 correct=66.3735% | wrong=0x5169 wrong_acc=50.2563% | gap=+16.1172% | 15.3s
+[028/100] true=0x2e7a correct=67.7780% | wrong=0xfeb0 wrong_acc=50.9743% | gap=+16.8037% | 15.3s
+[029/100] true=0x27b8 correct=67.1231% | wrong=0x1c37 wrong_acc=50.0534% | gap=+17.0697% | 15.3s
+[030/100] true=0xafa2 correct=68.5137% | wrong=0xc03a wrong_acc=50.1040% | gap=+18.4097% | 15.3s
+[031/100] true=0x6214 correct=67.8305% | wrong=0xd779 wrong_acc=50.1695% | gap=+17.6610% | 15.3s
+[032/100] true=0x7945 correct=68.0442% | wrong=0xaf8e wrong_acc=50.2425% | gap=+17.8017% | 15.3s
+[033/100] true=0xb75d correct=67.3997% | wrong=0xbba7 wrong_acc=50.0975% | gap=+17.3022% | 15.3s
+[034/100] true=0x535f correct=68.7126% | wrong=0xdfad wrong_acc=50.0504% | gap=+18.6622% | 15.3s
+[035/100] true=0xb3fe correct=68.1314% | wrong=0x9439 wrong_acc=51.1088% | gap=+17.0226% | 15.2s
+[036/100] true=0xd92e correct=66.2966% | wrong=0x3fe6 wrong_acc=50.5784% | gap=+15.7182% | 15.2s
+[037/100] true=0x29f7 correct=69.0427% | wrong=0xd875 wrong_acc=51.2125% | gap=+17.8302% | 15.2s
+[038/100] true=0xb584 correct=68.5104% | wrong=0xa459 wrong_acc=50.6106% | gap=+17.8998% | 15.2s
+[039/100] true=0x6d57 correct=68.2347% | wrong=0x7454 wrong_acc=51.5784% | gap=+16.6563% | 15.2s
+[040/100] true=0xf367 correct=68.4144% | wrong=0x33dc wrong_acc=50.6862% | gap=+17.7282% | 15.2s
+[041/100] true=0xf7c5 correct=67.0015% | wrong=0x6750 wrong_acc=50.9152% | gap=+16.0863% | 15.2s
+[042/100] true=0x5da1 correct=67.0962% | wrong=0xdade wrong_acc=50.1887% | gap=+16.9075% | 15.2s
+[043/100] true=0xe7f6 correct=67.8366% | wrong=0xa4c2 wrong_acc=50.5826% | gap=+17.2540% | 15.2s
+[044/100] true=0x7c7b correct=67.4087% | wrong=0x8b48 wrong_acc=50.0668% | gap=+17.3419% | 15.2s
+[045/100] true=0x687f correct=67.3033% | wrong=0xeccf wrong_acc=50.8103% | gap=+16.4930% | 15.2s
+[046/100] true=0x82cd correct=66.4282% | wrong=0xee9b wrong_acc=50.0773% | gap=+16.3509% | 15.2s
+[047/100] true=0x84c5 correct=68.0119% | wrong=0x6207 wrong_acc=51.8779% | gap=+16.1340% | 15.2s
+[048/100] true=0x5646 correct=69.0547% | wrong=0x50e6 wrong_acc=53.9166% | gap=+15.1381% | 15.2s
+[049/100] true=0x037a correct=67.4889% | wrong=0x1619 wrong_acc=50.7601% | gap=+16.7288% | 15.2s
+[050/100] true=0x38ea correct=68.8333% | wrong=0x6259 wrong_acc=50.0661% | gap=+18.7672% | 15.2s
+[051/100] true=0xd12b correct=67.4891% | wrong=0xaa5a wrong_acc=50.1977% | gap=+17.2914% | 15.2s
+[052/100] true=0xae5d correct=67.0718% | wrong=0xb919 wrong_acc=50.4358% | gap=+16.6360% | 15.2s
+[053/100] true=0xe429 correct=68.5926% | wrong=0x5cf2 wrong_acc=50.0971% | gap=+18.4955% | 15.2s
+[054/100] true=0xd203 correct=67.0671% | wrong=0xefd8 wrong_acc=50.0481% | gap=+17.0190% | 15.2s
+[055/100] true=0x5a90 correct=68.5164% | wrong=0xece7 wrong_acc=50.1479% | gap=+18.3685% | 15.2s
+[056/100] true=0xff30 correct=67.5143% | wrong=0xa354 wrong_acc=50.3008% | gap=+17.2135% | 15.2s
+[057/100] true=0xbe72 correct=67.0004% | wrong=0xc232 wrong_acc=52.5237% | gap=+14.4767% | 15.2s
+[058/100] true=0x181a correct=66.7820% | wrong=0x82e2 wrong_acc=49.9909% | gap=+16.7911% | 15.2s
+[059/100] true=0x3467 correct=69.0904% | wrong=0xe29c wrong_acc=50.1902% | gap=+18.9002% | 15.2s
+[060/100] true=0xb5f4 correct=67.8575% | wrong=0x85ec wrong_acc=51.1240% | gap=+16.7335% | 15.3s
+[061/100] true=0x3fc9 correct=66.8894% | wrong=0xe4c4 wrong_acc=50.2249% | gap=+16.6645% | 15.3s
+[062/100] true=0x97ea correct=66.7873% | wrong=0xec8b wrong_acc=51.0530% | gap=+15.7343% | 15.3s
+[063/100] true=0xc055 correct=68.4548% | wrong=0xa42d wrong_acc=50.2772% | gap=+18.1776% | 15.3s
+[064/100] true=0x7c11 correct=67.7213% | wrong=0xdf10 wrong_acc=55.4530% | gap=+12.2683% | 15.3s
+[065/100] true=0xff5c correct=68.6863% | wrong=0xaf74 wrong_acc=51.6171% | gap=+17.0692% | 15.3s
+[066/100] true=0x0ab2 correct=68.9546% | wrong=0x24ca wrong_acc=50.0090% | gap=+18.9456% | 15.2s
+[067/100] true=0xbd68 correct=66.9661% | wrong=0x9fe1 wrong_acc=50.9173% | gap=+16.0488% | 15.3s
+[068/100] true=0x353a correct=66.8366% | wrong=0x95c8 wrong_acc=50.8825% | gap=+15.9541% | 15.2s
+[069/100] true=0x47cb correct=68.2607% | wrong=0xda9a wrong_acc=50.2104% | gap=+18.0503% | 15.3s
+[070/100] true=0x85b8 correct=66.8741% | wrong=0xc276 wrong_acc=50.3225% | gap=+16.5516% | 15.2s
+[071/100] true=0xd474 correct=67.8338% | wrong=0xfcb6 wrong_acc=51.0480% | gap=+16.7858% | 15.3s
+[072/100] true=0xf16c correct=66.5761% | wrong=0xb979 wrong_acc=50.3287% | gap=+16.2474% | 15.2s
+[073/100] true=0xa041 correct=66.8908% | wrong=0xe4f4 wrong_acc=50.3356% | gap=+16.5552% | 15.3s
+[074/100] true=0x4e45 correct=67.3886% | wrong=0xb6d8 wrong_acc=50.0615% | gap=+17.3271% | 15.3s
+[075/100] true=0x8eac correct=67.2953% | wrong=0x814d wrong_acc=51.1655% | gap=+16.1298% | 15.3s
+[076/100] true=0x68b6 correct=68.1619% | wrong=0x9906 wrong_acc=51.4617% | gap=+16.7002% | 15.3s
+[077/100] true=0x380d correct=68.3461% | wrong=0xe985 wrong_acc=51.3638% | gap=+16.9823% | 15.3s
+[078/100] true=0x44c9 correct=67.6963% | wrong=0x21fb wrong_acc=50.2748% | gap=+17.4215% | 15.3s
+[079/100] true=0x2d67 correct=69.1271% | wrong=0x4c77 wrong_acc=52.4665% | gap=+16.6606% | 15.3s
+[080/100] true=0x9a54 correct=67.4666% | wrong=0xc66c wrong_acc=50.0877% | gap=+17.3789% | 15.3s
+[081/100] true=0x61a6 correct=67.5003% | wrong=0x96fe wrong_acc=50.1742% | gap=+17.3261% | 15.3s
+[082/100] true=0x8fb8 correct=67.7939% | wrong=0xeec1 wrong_acc=50.7057% | gap=+17.0882% | 15.3s
+[083/100] true=0xa0ab correct=66.4334% | wrong=0x7701 wrong_acc=50.2094% | gap=+16.2240% | 15.3s
+[084/100] true=0x73fb correct=67.7288% | wrong=0xf329 wrong_acc=51.1875% | gap=+16.5413% | 15.3s
+[085/100] true=0x8d25 correct=67.5568% | wrong=0x6f41 wrong_acc=50.6752% | gap=+16.8816% | 15.3s
+[086/100] true=0x7068 correct=66.4674% | wrong=0xf2d8 wrong_acc=51.2222% | gap=+15.2452% | 15.3s
+[087/100] true=0xfd01 correct=67.5339% | wrong=0xa53a wrong_acc=50.1038% | gap=+17.4301% | 15.3s
+[088/100] true=0xc766 correct=67.9347% | wrong=0x76df wrong_acc=50.5177% | gap=+17.4170% | 15.3s
+[089/100] true=0x950e correct=66.5765% | wrong=0xcf5d wrong_acc=50.0188% | gap=+16.5577% | 15.3s
+[090/100] true=0xf192 correct=67.4880% | wrong=0x06e5 wrong_acc=50.1493% | gap=+17.3387% | 15.3s
+[091/100] true=0x4710 correct=69.4602% | wrong=0x69cd wrong_acc=50.0037% | gap=+19.4565% | 15.3s
+[092/100] true=0xae43 correct=69.0672% | wrong=0x5a1b wrong_acc=50.3200% | gap=+18.7472% | 15.3s
+[093/100] true=0x273c correct=66.8248% | wrong=0xd82e wrong_acc=50.0497% | gap=+16.7751% | 15.2s
+[094/100] true=0x00d1 correct=66.5124% | wrong=0x73f9 wrong_acc=50.7077% | gap=+15.8047% | 15.2s
+[095/100] true=0xf5be correct=67.1634% | wrong=0x762c wrong_acc=51.0572% | gap=+16.1062% | 15.2s
+[096/100] true=0x2564 correct=67.6840% | wrong=0xd308 wrong_acc=50.1845% | gap=+17.4995% | 15.2s
+[097/100] true=0x1ed3 correct=69.6044% | wrong=0x6069 wrong_acc=49.9502% | gap=+19.6542% | 15.3s
+[098/100] true=0x1d64 correct=69.4793% | wrong=0xc328 wrong_acc=50.0310% | gap=+19.4483% | 15.3s
+[099/100] true=0x8e94 correct=68.1183% | wrong=0x6066 wrong_acc=50.0366% | gap=+18.0817% | 15.4s
+[100/100] true=0xf7f5 correct=68.3672% | wrong=0x1b04 wrong_acc=50.1930% | gap=+18.1742% | 15.3s
+结果已保存: /home/yaya666/MyProjection/key_recovery_results/mirzaali_style_R7_to_R8.json
+
+====================================================================================================
+开始实验：R8 PDND -> R9 SPECK32/64
+差分文件：/home/yaya666/MyProjection/data/best_polytope_pair_7round.json
+模型权重：/home/yaya666/MyProjection/application/pdnd_accuracy_improved_checkpoints/speck32_8r_improved_best_weights.pth
+样本数量：1,000,000
+重复次数：100
+====================================================================================================
+================================================================================================
+Mirzaali-style: R8 PDND -> R9 SPECK32/64
+device=cuda, threshold(logit)=+0.000000
+samples/trial=1,000,000, trials=100
+================================================================================================
+[001/100] true=0x4d5c correct=54.5581% | wrong=0xabe2 wrong_acc=49.9745% | gap=+4.5836% | 15.4s
+[002/100] true=0xd2fb correct=54.3493% | wrong=0xa03f wrong_acc=49.9927% | gap=+4.3566% | 15.4s
+[003/100] true=0x792a correct=53.7680% | wrong=0x8c93 wrong_acc=49.9433% | gap=+3.8247% | 15.4s
+[004/100] true=0x41ff correct=53.4866% | wrong=0x5d4c wrong_acc=50.1288% | gap=+3.3578% | 15.4s
+[005/100] true=0x705f correct=54.1774% | wrong=0x426d wrong_acc=50.0335% | gap=+4.1439% | 15.4s
+[006/100] true=0x89fd correct=54.3127% | wrong=0x62df wrong_acc=50.1693% | gap=+4.1434% | 15.4s
+[007/100] true=0x722c correct=54.3349% | wrong=0xa7f0 wrong_acc=50.0597% | gap=+4.2752% | 15.4s
+[008/100] true=0xf1d7 correct=53.6708% | wrong=0x7a9c wrong_acc=50.0034% | gap=+3.6674% | 15.4s
+[009/100] true=0xcc38 correct=54.3241% | wrong=0x8ed6 wrong_acc=50.0181% | gap=+4.3060% | 15.4s
+[010/100] true=0x0212 correct=54.0479% | wrong=0x795d wrong_acc=50.0783% | gap=+3.9696% | 15.4s
+[011/100] true=0xc836 correct=54.2030% | wrong=0x45dd wrong_acc=50.0062% | gap=+4.1968% | 15.4s
+[012/100] true=0x1460 correct=54.0972% | wrong=0x4412 wrong_acc=50.1191% | gap=+3.9781% | 15.4s
+[013/100] true=0xb9db correct=54.0772% | wrong=0x6bbb wrong_acc=50.3499% | gap=+3.7273% | 15.4s
+[014/100] true=0x2dec correct=53.6503% | wrong=0x0444 wrong_acc=50.0607% | gap=+3.5896% | 15.4s
+[015/100] true=0x0661 correct=54.0930% | wrong=0x3a84 wrong_acc=50.0652% | gap=+4.0278% | 15.4s
+[016/100] true=0xe910 correct=53.6865% | wrong=0x4dc9 wrong_acc=49.9796% | gap=+3.7069% | 15.4s
+[017/100] true=0x5111 correct=54.1570% | wrong=0x8eb8 wrong_acc=50.1189% | gap=+4.0381% | 15.4s
+[018/100] true=0x8229 correct=53.3763% | wrong=0x9275 wrong_acc=50.0474% | gap=+3.3289% | 15.4s
+[019/100] true=0x7743 correct=53.8922% | wrong=0x3568 wrong_acc=50.0988% | gap=+3.7934% | 15.4s
+[020/100] true=0x47d1 correct=54.1791% | wrong=0x3fac wrong_acc=49.9659% | gap=+4.2132% | 15.4s
+[021/100] true=0x782c correct=54.1825% | wrong=0xafdd wrong_acc=50.0112% | gap=+4.1713% | 15.4s
+[022/100] true=0xc098 correct=54.2440% | wrong=0x1af1 wrong_acc=50.0286% | gap=+4.2154% | 15.4s
+[023/100] true=0xbeb7 correct=54.1321% | wrong=0xbb3a wrong_acc=50.5766% | gap=+3.5555% | 15.4s
+[024/100] true=0x4530 correct=53.9870% | wrong=0x3e06 wrong_acc=49.9778% | gap=+4.0092% | 15.4s
+[025/100] true=0x3488 correct=54.3980% | wrong=0x5184 wrong_acc=50.0183% | gap=+4.3797% | 15.4s
+[026/100] true=0x8d73 correct=54.4119% | wrong=0x3f37 wrong_acc=49.9922% | gap=+4.4197% | 15.4s
+[027/100] true=0x82c4 correct=54.1890% | wrong=0x0bc2 wrong_acc=50.5684% | gap=+3.6206% | 15.4s
+[028/100] true=0x0860 correct=53.8146% | wrong=0x55d1 wrong_acc=49.9558% | gap=+3.8588% | 15.4s
+[029/100] true=0xb33b correct=53.9686% | wrong=0x9492 wrong_acc=49.9704% | gap=+3.9982% | 15.4s
+[030/100] true=0xa596 correct=53.7326% | wrong=0x8419 wrong_acc=50.1034% | gap=+3.6292% | 15.4s
+[031/100] true=0x2ad6 correct=53.6530% | wrong=0x58d6 wrong_acc=50.3488% | gap=+3.3042% | 15.4s
+[032/100] true=0xcbb5 correct=54.2239% | wrong=0x0ca7 wrong_acc=50.1889% | gap=+4.0350% | 15.4s
+[033/100] true=0xdc35 correct=54.3056% | wrong=0x615a wrong_acc=49.9284% | gap=+4.3772% | 15.4s
+[034/100] true=0xb39f correct=54.2290% | wrong=0x25ec wrong_acc=50.0300% | gap=+4.1990% | 15.4s
+[035/100] true=0x3fe1 correct=54.1056% | wrong=0x38f9 wrong_acc=50.2409% | gap=+3.8647% | 15.4s
+[036/100] true=0xcf9f correct=54.2723% | wrong=0x68c4 wrong_acc=49.9557% | gap=+4.3166% | 15.4s
+[037/100] true=0xb273 correct=54.1363% | wrong=0xe570 wrong_acc=50.3979% | gap=+3.7384% | 15.4s
+[038/100] true=0x5f7c correct=54.0167% | wrong=0x5408 wrong_acc=50.0661% | gap=+3.9506% | 15.3s
+[039/100] true=0xa19f correct=53.8173% | wrong=0x1bb8 wrong_acc=50.0004% | gap=+3.8169% | 15.3s
+[040/100] true=0xa2b7 correct=53.6177% | wrong=0x25a4 wrong_acc=50.1762% | gap=+3.4415% | 15.3s
+[041/100] true=0x8966 correct=53.7461% | wrong=0x18a9 wrong_acc=50.0409% | gap=+3.7052% | 15.3s
+[042/100] true=0x5bf2 correct=54.4739% | wrong=0x912e wrong_acc=49.9479% | gap=+4.5260% | 15.3s
+[043/100] true=0xcb0b correct=53.9964% | wrong=0xa9d4 wrong_acc=49.9850% | gap=+4.0114% | 15.3s
+[044/100] true=0xb24e correct=53.5253% | wrong=0x1abf wrong_acc=50.0334% | gap=+3.4919% | 15.4s
+[045/100] true=0xcf96 correct=54.1734% | wrong=0xe2f4 wrong_acc=50.0903% | gap=+4.0831% | 15.3s
+[046/100] true=0x1c22 correct=54.4457% | wrong=0xc1a9 wrong_acc=50.1721% | gap=+4.2736% | 15.4s
+[047/100] true=0x7b8d correct=54.1033% | wrong=0x400b wrong_acc=50.0316% | gap=+4.0717% | 15.3s
+[048/100] true=0x357f correct=54.1559% | wrong=0x2d46 wrong_acc=50.1389% | gap=+4.0170% | 15.3s
+[049/100] true=0xbe4b correct=54.4982% | wrong=0x6371 wrong_acc=49.9438% | gap=+4.5544% | 15.3s
+[050/100] true=0x97ea correct=53.5364% | wrong=0x3147 wrong_acc=50.0652% | gap=+3.4712% | 15.3s
+[051/100] true=0xb451 correct=53.5011% | wrong=0xe9de wrong_acc=50.1034% | gap=+3.3977% | 15.4s
+[052/100] true=0x005b correct=53.7021% | wrong=0xcfa8 wrong_acc=49.9930% | gap=+3.7091% | 15.3s
+[053/100] true=0x8141 correct=54.0304% | wrong=0xe5e1 wrong_acc=50.2837% | gap=+3.7467% | 15.4s
+[054/100] true=0x94c5 correct=53.6062% | wrong=0x23d2 wrong_acc=50.2138% | gap=+3.3924% | 15.3s
+[055/100] true=0xd295 correct=54.1635% | wrong=0x6a8a wrong_acc=49.9807% | gap=+4.1828% | 15.3s
+[056/100] true=0x4ae6 correct=54.1073% | wrong=0x2d05 wrong_acc=50.1218% | gap=+3.9855% | 15.4s
+[057/100] true=0x7fa3 correct=54.4955% | wrong=0x5553 wrong_acc=50.0731% | gap=+4.4224% | 15.4s
+[058/100] true=0xc911 correct=53.5818% | wrong=0x51f3 wrong_acc=50.1194% | gap=+3.4624% | 15.4s
+[059/100] true=0xe135 correct=53.9000% | wrong=0xeb72 wrong_acc=50.0529% | gap=+3.8471% | 15.3s
+[060/100] true=0xae1a correct=54.8396% | wrong=0x4bfb wrong_acc=50.0831% | gap=+4.7565% | 15.3s
+[061/100] true=0x2ca6 correct=54.1853% | wrong=0x4720 wrong_acc=50.0866% | gap=+4.0987% | 15.4s
+[062/100] true=0x6c6f correct=53.9758% | wrong=0xc32a wrong_acc=50.0767% | gap=+3.8991% | 15.4s
+[063/100] true=0xbc01 correct=54.2711% | wrong=0xfe82 wrong_acc=51.4689% | gap=+2.8022% | 15.3s
+[064/100] true=0x232d correct=53.9682% | wrong=0xce1e wrong_acc=49.9691% | gap=+3.9991% | 15.3s
+[065/100] true=0xa6d9 correct=54.0004% | wrong=0xa209 wrong_acc=50.0758% | gap=+3.9246% | 15.4s
+[066/100] true=0x937e correct=53.6058% | wrong=0xa2e3 wrong_acc=50.0341% | gap=+3.5717% | 15.4s
+[067/100] true=0xfd6f correct=54.4723% | wrong=0x3a0c wrong_acc=50.0458% | gap=+4.4265% | 15.3s
+[068/100] true=0x2fcc correct=54.0825% | wrong=0x8320 wrong_acc=49.9237% | gap=+4.1588% | 15.3s
+[069/100] true=0xf9a2 correct=54.1653% | wrong=0x6e95 wrong_acc=49.9924% | gap=+4.1729% | 15.3s
+[070/100] true=0x8576 correct=54.0261% | wrong=0xf687 wrong_acc=49.9903% | gap=+4.0358% | 15.4s
+[071/100] true=0x8b70 correct=54.1174% | wrong=0x85aa wrong_acc=50.0350% | gap=+4.0824% | 15.3s
+[072/100] true=0xcfd4 correct=53.6692% | wrong=0xd24f wrong_acc=50.0469% | gap=+3.6223% | 15.4s
+[073/100] true=0xfa1c correct=54.0587% | wrong=0x0869 wrong_acc=50.0372% | gap=+4.0215% | 15.4s
+[074/100] true=0x3f06 correct=54.2027% | wrong=0xeb1d wrong_acc=50.0667% | gap=+4.1360% | 15.4s
+[075/100] true=0xc280 correct=54.2609% | wrong=0x6249 wrong_acc=49.9575% | gap=+4.3034% | 15.3s
+[076/100] true=0xf1a0 correct=53.6828% | wrong=0x1e8a wrong_acc=50.1638% | gap=+3.5190% | 15.3s
+[077/100] true=0x733b correct=54.3365% | wrong=0xe113 wrong_acc=50.1971% | gap=+4.1394% | 15.3s
+[078/100] true=0xb905 correct=54.7203% | wrong=0xf58a wrong_acc=50.2344% | gap=+4.4859% | 15.4s
+[079/100] true=0x0254 correct=54.3897% | wrong=0x114f wrong_acc=50.1454% | gap=+4.2443% | 15.4s
+[080/100] true=0x323b correct=53.9197% | wrong=0x35e5 wrong_acc=49.9750% | gap=+3.9447% | 15.4s
+[081/100] true=0x355f correct=53.6879% | wrong=0x6591 wrong_acc=50.0125% | gap=+3.6754% | 15.4s
+[082/100] true=0xc311 correct=54.5398% | wrong=0x9ab2 wrong_acc=50.1031% | gap=+4.4367% | 15.4s
+[083/100] true=0x9c51 correct=53.8856% | wrong=0x2363 wrong_acc=50.0847% | gap=+3.8009% | 15.4s
+[084/100] true=0x7cd9 correct=54.0047% | wrong=0xba84 wrong_acc=50.0758% | gap=+3.9289% | 15.4s
+[085/100] true=0x7ba2 correct=54.4420% | wrong=0xaf84 wrong_acc=50.0665% | gap=+4.3755% | 15.4s
+[086/100] true=0x8569 correct=53.9909% | wrong=0xd2c8 wrong_acc=50.1711% | gap=+3.8198% | 15.4s
+[087/100] true=0x73f0 correct=54.2220% | wrong=0xdc89 wrong_acc=49.9238% | gap=+4.2982% | 15.4s
+[088/100] true=0x81a4 correct=53.9255% | wrong=0x7a99 wrong_acc=50.0344% | gap=+3.8911% | 15.4s
+[089/100] true=0x3b12 correct=54.3358% | wrong=0x304a wrong_acc=49.9764% | gap=+4.3594% | 15.4s
+[090/100] true=0x1375 correct=53.4525% | wrong=0x2f78 wrong_acc=50.0956% | gap=+3.3569% | 15.4s
+[091/100] true=0x0c3f correct=53.7300% | wrong=0x644c wrong_acc=49.9974% | gap=+3.7326% | 15.4s
+[092/100] true=0xe332 correct=54.1698% | wrong=0xda4f wrong_acc=50.0654% | gap=+4.1044% | 15.4s
+[093/100] true=0x8e8f correct=53.7460% | wrong=0xf90d wrong_acc=50.1674% | gap=+3.5786% | 15.4s
+[094/100] true=0x9175 correct=54.2351% | wrong=0x8b07 wrong_acc=49.9920% | gap=+4.2431% | 15.4s
+[095/100] true=0x3af0 correct=54.0714% | wrong=0xf20e wrong_acc=49.9751% | gap=+4.0963% | 15.4s
+[096/100] true=0x54de correct=53.6602% | wrong=0x49eb wrong_acc=50.0022% | gap=+3.6580% | 15.4s
+[097/100] true=0x3ee2 correct=54.8179% | wrong=0xdf27 wrong_acc=50.2282% | gap=+4.5897% | 15.4s
+[098/100] true=0x5a49 correct=54.6918% | wrong=0x7237 wrong_acc=50.0634% | gap=+4.6284% | 15.4s
+[099/100] true=0x6c1f correct=53.8213% | wrong=0xf2f5 wrong_acc=50.0901% | gap=+3.7312% | 15.4s
+[100/100] true=0x80d5 correct=53.9286% | wrong=0x2bd6 wrong_acc=50.0542% | gap=+3.8744% | 15.4s
+结果已保存: /home/yaya666/MyProjection/key_recovery_results/mirzaali_style_R8_to_R9.json
+
+====================================================================================================
+Response实验全部完成
+汇总结果：/home/yaya666/MyProjection/key_recovery_results/mirzaali_style_all_rounds_summary.json
+====================================================================================================

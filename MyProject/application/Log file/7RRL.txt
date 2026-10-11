@@ -1,0 +1,66 @@
+nohup: ignoring input
+[R7] 读取本轮种子文件：/home/yaya666/MyProject/data/top_diff_seeds_7round.json
+[R7] 搜索结果将保存至：/home/yaya666/MyProject/data/best_polytope_pair_7round.json
+启动 12 个双多胞体 PPO 起点，进程数=6，种子文件数=1，每个多胞体含 3 个差分，锚点HW分布={1: 5, 2: 4, 3: 2, 4: 1}。
+[start-2] PPO 进度  25.0% (5000/20000)
+[start-0] PPO 进度  25.0% (5000/20000)
+[start-1] PPO 进度  25.0% (5000/20000)
+[start-15] PPO 进度  25.0% (5000/20000)
+[start-7] PPO 进度  25.0% (5000/20000)
+[start-3] PPO 进度  25.0% (5000/20000)
+[start-1] PPO 进度  50.0% (10000/20000)
+[start-7] PPO 进度  50.0% (10000/20000)
+[start-2] PPO 进度  50.0% (10000/20000)
+[start-15] PPO 进度  50.0% (10000/20000)
+[start-3] PPO 进度  50.0% (10000/20000)
+[start-0] PPO 进度  50.0% (10000/20000)
+[start-7] PPO 进度  75.0% (15000/20000)
+[start-1] PPO 进度  75.0% (15000/20000)
+[start-3] PPO 进度  75.0% (15000/20000)
+[start-15] PPO 进度  75.0% (15000/20000)
+[start-2] PPO 进度  75.0% (15000/20000)
+[start-0] PPO 进度  75.0% (15000/20000)
+[start-7] PPO 进度 100.0% (20000/20000)
+[start-1] PPO 进度 100.0% (20000/20000)
+[start-3] PPO 进度 100.0% (20000/20000)
+[start-15] PPO 进度 100.0% (20000/20000)
+[start-2] PPO 进度 100.0% (20000/20000)
+[1/12] start=7 local_final=0.954348 refine=0.000213 proxy_auc=0.507553
+[start-0] PPO 进度 100.0% (20000/20000)
+[start-4] PPO 进度  25.0% (5000/20000)
+[2/12] start=1 local_final=0.984783 refine=0.000398 proxy_auc=0.507045
+[3/12] start=3 local_final=0.954348 refine=0.000503 proxy_auc=0.515733
+[4/12] start=15 local_final=0.984783 refine=0.000407 proxy_auc=0.504371
+[5/12] start=2 local_final=1.000000 refine=0.000254 proxy_auc=0.505077
+[6/12] start=0 local_final=0.984783 refine=0.000180 proxy_auc=0.506045
+[start-13] PPO 进度  25.0% (5000/20000)
+[start-4] PPO 进度  50.0% (10000/20000)
+[start-8] PPO 进度  25.0% (5000/20000)
+[start-17] PPO 进度  25.0% (5000/20000)
+[start-9] PPO 进度  25.0% (5000/20000)
+[start-25] PPO 进度  25.0% (5000/20000)
+[start-13] PPO 进度  50.0% (10000/20000)
+[start-17] PPO 进度  50.0% (10000/20000)
+[start-8] PPO 进度  50.0% (10000/20000)
+[start-9] PPO 进度  50.0% (10000/20000)
+[start-4] PPO 进度  75.0% (15000/20000)
+[start-25] PPO 进度  50.0% (10000/20000)
+[start-17] PPO 进度  75.0% (15000/20000)
+[start-13] PPO 进度  75.0% (15000/20000)
+[start-9] PPO 进度  75.0% (15000/20000)
+[start-8] PPO 进度  75.0% (15000/20000)
+[start-8] PPO 进度 100.0% (20000/20000)
+[start-25] PPO 进度  75.0% (15000/20000)
+[start-4] PPO 进度 100.0% (20000/20000)
+[start-13] PPO 进度 100.0% (20000/20000)
+[start-17] PPO 进度 100.0% (20000/20000)
+[start-9] PPO 进度 100.0% (20000/20000)
+[7/12] start=8 local_final=0.954348 refine=0.000195 proxy_auc=0.506542
+[8/12] start=13 local_final=1.000000 refine=0.000197 proxy_auc=0.502882
+[start-25] PPO 进度 100.0% (20000/20000)
+[9/12] start=4 local_final=0.969565 refine=0.000280 proxy_auc=0.508909
+[10/12] start=17 local_final=1.000000 refine=0.000218 proxy_auc=0.499320
+[11/12] start=9 local_final=0.969565 refine=0.000238 proxy_auc=0.512946
+[12/12] start=25 local_final=0.969565 refine=0.000195 proxy_auc=0.501501
+开始全局高保真重排：候选数最多 12，每个候选重复 3 次代理PDND训练。
+最优双多胞体结果已保存至: /home/yaya666/MyProject/data/best_polytope_pair_7round.json
